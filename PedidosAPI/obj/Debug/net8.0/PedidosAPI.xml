@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>PedidosAPI</name>
+    </assembly>
+    <members>
+        <member name="M:PedidosAPI.Controllers.CustomerController.GetById(System.Guid)">
+            <summary>
+            Obtiene un cliente por su ID.
+            </summary>
+            <param name="id">El ID del cliente.</param>
+            <returns>Devuelve el cliente con la información solicitada.</returns>
+        </member>
+        <member name="M:PedidosAPI.Controllers.CustomerController.Create(Application.Dtos.CustomerCreateDto)">
+            <summary>
+            Crea un nuevo cliente.
+            </summary>
+            <param name="dto">El DTO del cliente que contiene los datos para crear un nuevo cliente.</param>
+            <returns>Devuelve una respuesta con el cliente creado.</returns>
+        </member>
+    </members>
+</doc>
