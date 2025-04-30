@@ -1,0 +1,1189 @@
+2025-04-30 12:41:41.517 -03:00 [DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.TryParseModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"]
+2025-04-30 12:41:41.625 -03:00 [DBG] Hosting starting
+2025-04-30 12:41:41.665 -03:00 [INF] User profile is available. Using 'C:\Users\engue\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-04-30 12:41:41.683 -03:00 [DBG] Reading data from file 'C:\Users\engue\AppData\Local\ASP.NET\DataProtection-Keys\key-84d0fdb6-1092-4841-ae42-a6e0af9e2a2c.xml'.
+2025-04-30 12:41:41.695 -03:00 [DBG] Reading data from file 'C:\Users\engue\AppData\Local\ASP.NET\DataProtection-Keys\key-e060b36c-62ad-4e46-ae6d-995d0b4708ad.xml'.
+2025-04-30 12:41:41.698 -03:00 [DBG] Reading data from file 'C:\Users\engue\AppData\Local\ASP.NET\DataProtection-Keys\key-f5988c01-d3af-4e7c-b44a-246fd5e27ad1.xml'.
+2025-04-30 12:41:41.704 -03:00 [DBG] Found key {84d0fdb6-1092-4841-ae42-a6e0af9e2a2c}.
+2025-04-30 12:41:41.710 -03:00 [DBG] Found key {e060b36c-62ad-4e46-ae6d-995d0b4708ad}.
+2025-04-30 12:41:41.711 -03:00 [DBG] Found key {f5988c01-d3af-4e7c-b44a-246fd5e27ad1}.
+2025-04-30 12:41:41.721 -03:00 [DBG] Considering key {84d0fdb6-1092-4841-ae42-a6e0af9e2a2c} with expiration date 2025-07-29 06:06:56Z as default key.
+2025-04-30 12:41:41.727 -03:00 [DBG] Forwarded activator type request from Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Version=8.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2025-04-30 12:41:41.731 -03:00 [DBG] Decrypting secret element using Windows DPAPI.
+2025-04-30 12:41:41.734 -03:00 [DBG] Forwarded activator type request from Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Version=8.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2025-04-30 12:41:41.742 -03:00 [DBG] Opening CNG algorithm 'AES' from provider 'null' with chaining mode CBC.
+2025-04-30 12:41:41.745 -03:00 [DBG] Opening CNG algorithm 'SHA256' from provider 'null' with HMAC.
+2025-04-30 12:41:41.747 -03:00 [DBG] Using key {84d0fdb6-1092-4841-ae42-a6e0af9e2a2c} as the default key.
+2025-04-30 12:41:41.749 -03:00 [DBG] Key ring with default key {84d0fdb6-1092-4841-ae42-a6e0af9e2a2c} was loaded during application startup.
+2025-04-30 12:41:41.913 -03:00 [INF] Now listening on: http://localhost:5231
+2025-04-30 12:41:41.915 -03:00 [DBG] Loaded hosting startup assembly PedidosAPI
+2025-04-30 12:41:41.917 -03:00 [DBG] Loaded hosting startup assembly Microsoft.WebTools.ApiEndpointDiscovery
+2025-04-30 12:41:41.918 -03:00 [DBG] Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh
+2025-04-30 12:41:41.919 -03:00 [DBG] Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net
+2025-04-30 12:41:42.017 -03:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-04-30 12:41:42.020 -03:00 [INF] Hosting environment: Development
+2025-04-30 12:41:42.022 -03:00 [INF] Content root path: C:\Users\engue\source\git\PedidosAPI\PedidosAPI
+2025-04-30 12:41:42.023 -03:00 [DBG] Hosting started
+2025-04-30 12:41:42.257 -03:00 [DBG] Connection id "0HNC7VM0L3GQB" accepted.
+2025-04-30 12:41:42.260 -03:00 [DBG] Connection id "0HNC7VM0L3GQB" started.
+2025-04-30 12:41:42.289 -03:00 [DBG] Connection id "0HNC7VM0L3GQB" received FIN.
+2025-04-30 12:41:42.292 -03:00 [DBG] Connection id "0HNC7VM0L3GQB" sending FIN because: "The Socket transport's send loop completed gracefully."
+2025-04-30 12:41:42.297 -03:00 [DBG] Connection id "0HNC7VM0L3GQB" disconnecting.
+2025-04-30 12:41:42.300 -03:00 [DBG] Connection id "0HNC7VM0L3GQB" stopped.
+2025-04-30 12:41:42.699 -03:00 [DBG] Connection id "0HNC7VM0L3GQC" accepted.
+2025-04-30 12:41:42.756 -03:00 [DBG] Connection id "0HNC7VM0L3GQD" accepted.
+2025-04-30 12:41:42.756 -03:00 [DBG] Connection id "0HNC7VM0L3GQC" started.
+2025-04-30 12:41:42.780 -03:00 [DBG] Connection id "0HNC7VM0L3GQD" started.
+2025-04-30 12:41:42.847 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5231/swagger/index.html - null null
+2025-04-30 12:41:43.074 -03:00 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2025-04-30 12:41:43.099 -03:00 [DBG] No candidates found for the request path '/swagger/index.html'
+2025-04-30 12:41:43.100 -03:00 [DBG] Request did not match any endpoints
+2025-04-30 12:41:43.175 -03:00 [DBG] Response markup is scheduled to include Browser Link script injection.
+2025-04-30 12:41:43.177 -03:00 [DBG] Response markup is scheduled to include browser refresh script injection.
+2025-04-30 12:41:43.202 -03:00 [DBG] Response markup was updated to include Browser Link script injection.
+2025-04-30 12:41:43.204 -03:00 [DBG] Response markup was updated to include browser refresh script injection.
+2025-04-30 12:41:43.208 -03:00 [DBG] Connection id "0HNC7VM0L3GQC" completed keep alive response.
+2025-04-30 12:41:43.212 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5231/swagger/index.html - 200 null text/html;charset=utf-8 384.4887ms
+2025-04-30 12:41:43.247 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5231/_vs/browserLink - null null
+2025-04-30 12:41:43.248 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5231/_framework/aspnetcore-browser-refresh.js - null null
+2025-04-30 12:41:43.257 -03:00 [DBG] Connection id "0HNC7VM0L3GQD" completed keep alive response.
+2025-04-30 12:41:43.274 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5231/_framework/aspnetcore-browser-refresh.js - 200 13772 application/javascript; charset=utf-8 25.3679ms
+2025-04-30 12:41:43.309 -03:00 [DBG] Connection id "0HNC7VM0L3GQC" completed keep alive response.
+2025-04-30 12:41:43.310 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5231/_vs/browserLink - 200 null text/javascript; charset=UTF-8 63.2567ms
+2025-04-30 12:41:43.387 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5231/swagger/v1/swagger.json - null null
+2025-04-30 12:41:43.396 -03:00 [DBG] No candidates found for the request path '/swagger/v1/swagger.json'
+2025-04-30 12:41:43.397 -03:00 [DBG] Request did not match any endpoints
+2025-04-30 12:41:43.443 -03:00 [DBG] Connection id "0HNC7VM0L3GQC" completed keep alive response.
+2025-04-30 12:41:43.446 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5231/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 59.0965ms
+2025-04-30 12:41:48.387 -03:00 [INF] Request starting HTTP/1.1 POST http://localhost:5231/login - application/json 50
+2025-04-30 12:41:48.397 -03:00 [DBG] 1 candidate(s) found for the request path '/login'
+2025-04-30 12:41:48.404 -03:00 [DBG] Endpoint 'PedidosAPI.Controllers.AuthController.Login (PedidosAPI)' with route pattern 'login' is valid for the request path '/login'
+2025-04-30 12:41:48.406 -03:00 [DBG] Request matched endpoint 'PedidosAPI.Controllers.AuthController.Login (PedidosAPI)'
+2025-04-30 12:41:48.411 -03:00 [DBG] Static files was skipped as the request already matched an endpoint.
+2025-04-30 12:41:48.478 -03:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2025-04-30 12:41:48.484 -03:00 [INF] Executing endpoint 'PedidosAPI.Controllers.AuthController.Login (PedidosAPI)'
+2025-04-30 12:41:48.508 -03:00 [INF] Route matched with {action = "Login", controller = "Auth"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Login(LoginRequest) on controller PedidosAPI.Controllers.AuthController (PedidosAPI).
+2025-04-30 12:41:48.514 -03:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2025-04-30 12:41:48.516 -03:00 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2025-04-30 12:41:48.518 -03:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.Filters.ControllerActionFilter (Order: -2147483648)","Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)"]
+2025-04-30 12:41:48.520 -03:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2025-04-30 12:41:48.522 -03:00 [DBG] Execution plan of result filters (in the following order): ["None"]
+2025-04-30 12:41:48.525 -03:00 [DBG] Executing controller factory for controller PedidosAPI.Controllers.AuthController (PedidosAPI)
+2025-04-30 12:41:48.526 -03:00 [DBG] Executed controller factory for controller PedidosAPI.Controllers.AuthController (PedidosAPI)
+2025-04-30 12:41:48.530 -03:00 [DBG] Attempting to bind parameter 'request' of type 'PedidosAPI.Controllers.AuthController+LoginRequest' ...
+2025-04-30 12:41:48.533 -03:00 [DBG] Attempting to bind parameter 'request' of type 'PedidosAPI.Controllers.AuthController+LoginRequest' using the name '' in request data ...
+2025-04-30 12:41:48.536 -03:00 [DBG] Selected input formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonInputFormatter' for content type 'application/json'.
+2025-04-30 12:41:48.544 -03:00 [DBG] Connection id "0HNC7VM0L3GQC", Request id "0HNC7VM0L3GQC:00000004": started reading request body.
+2025-04-30 12:41:48.545 -03:00 [DBG] Connection id "0HNC7VM0L3GQC", Request id "0HNC7VM0L3GQC:00000004": done reading request body.
+2025-04-30 12:41:48.559 -03:00 [DBG] JSON input formatter succeeded, deserializing to type 'PedidosAPI.Controllers.AuthController+LoginRequest'
+2025-04-30 12:41:48.561 -03:00 [DBG] Done attempting to bind parameter 'request' of type 'PedidosAPI.Controllers.AuthController+LoginRequest'.
+2025-04-30 12:41:48.562 -03:00 [DBG] Done attempting to bind parameter 'request' of type 'PedidosAPI.Controllers.AuthController+LoginRequest'.
+2025-04-30 12:41:48.564 -03:00 [DBG] Attempting to validate the bound parameter 'request' of type 'PedidosAPI.Controllers.AuthController+LoginRequest' ...
+2025-04-30 12:41:48.573 -03:00 [DBG] Done attempting to validate the bound parameter 'request' of type 'PedidosAPI.Controllers.AuthController+LoginRequest'.
+2025-04-30 12:42:06.988 -03:00 [INF] Executed action PedidosAPI.Controllers.AuthController.Login (PedidosAPI) in 18460.6696ms
+2025-04-30 12:42:06.992 -03:00 [INF] Executed endpoint 'PedidosAPI.Controllers.AuthController.Login (PedidosAPI)'
+2025-04-30 12:42:07.012 -03:00 [ERR] Error no controlado
+System.Exception: Excepción de prueba para verificar el middleware
+   at PedidosAPI.Controllers.AuthController.Login(LoginRequest request) in C:\Users\engue\source\git\PedidosAPI\PedidosAPI\Controllers\AuthController.cs:line 23
+   at lambda_method2(Closure, Object, Object[])
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.SyncActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeNextActionFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at PedidosAPI.Middlewares.ErrorHandlingMiddleware.Invoke(HttpContext context) in C:\Users\engue\source\git\PedidosAPI\PedidosAPI\Middlewares\ErrorHandlingMiddleware.cs:line 24
+2025-04-30 12:42:07.057 -03:00 [DBG] Connection id "0HNC7VM0L3GQC" completed keep alive response.
+2025-04-30 12:42:07.058 -03:00 [INF] Request finished HTTP/1.1 POST http://localhost:5231/login - 500 null application/json 18671.9139ms
+2025-04-30 12:42:22.217 -03:00 [DBG] Connection id "0HNC7VM0L3GQD" received FIN.
+2025-04-30 12:42:22.217 -03:00 [DBG] Connection id "0HNC7VM0L3GQC" received FIN.
+2025-04-30 12:42:22.228 -03:00 [DBG] Connection id "0HNC7VM0L3GQD" sending FIN because: "The Socket transport's send loop completed gracefully."
+2025-04-30 12:42:22.230 -03:00 [DBG] Connection id "0HNC7VM0L3GQC" sending FIN because: "The Socket transport's send loop completed gracefully."
+2025-04-30 12:42:22.241 -03:00 [DBG] Connection id "0HNC7VM0L3GQD" disconnecting.
+2025-04-30 12:42:22.248 -03:00 [DBG] Connection id "0HNC7VM0L3GQC" disconnecting.
+2025-04-30 12:42:22.250 -03:00 [DBG] Connection id "0HNC7VM0L3GQC" stopped.
+2025-04-30 12:42:22.252 -03:00 [DBG] Connection id "0HNC7VM0L3GQD" stopped.
+2025-04-30 12:42:56.973 -03:00 [DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.TryParseModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"]
+2025-04-30 12:42:57.098 -03:00 [DBG] Hosting starting
+2025-04-30 12:42:57.147 -03:00 [INF] User profile is available. Using 'C:\Users\engue\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-04-30 12:42:57.162 -03:00 [DBG] Reading data from file 'C:\Users\engue\AppData\Local\ASP.NET\DataProtection-Keys\key-84d0fdb6-1092-4841-ae42-a6e0af9e2a2c.xml'.
+2025-04-30 12:42:57.167 -03:00 [DBG] Reading data from file 'C:\Users\engue\AppData\Local\ASP.NET\DataProtection-Keys\key-e060b36c-62ad-4e46-ae6d-995d0b4708ad.xml'.
+2025-04-30 12:42:57.168 -03:00 [DBG] Reading data from file 'C:\Users\engue\AppData\Local\ASP.NET\DataProtection-Keys\key-f5988c01-d3af-4e7c-b44a-246fd5e27ad1.xml'.
+2025-04-30 12:42:57.174 -03:00 [DBG] Found key {84d0fdb6-1092-4841-ae42-a6e0af9e2a2c}.
+2025-04-30 12:42:57.178 -03:00 [DBG] Found key {e060b36c-62ad-4e46-ae6d-995d0b4708ad}.
+2025-04-30 12:42:57.179 -03:00 [DBG] Found key {f5988c01-d3af-4e7c-b44a-246fd5e27ad1}.
+2025-04-30 12:42:57.183 -03:00 [DBG] Considering key {84d0fdb6-1092-4841-ae42-a6e0af9e2a2c} with expiration date 2025-07-29 06:06:56Z as default key.
+2025-04-30 12:42:57.188 -03:00 [DBG] Forwarded activator type request from Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Version=8.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2025-04-30 12:42:57.192 -03:00 [DBG] Decrypting secret element using Windows DPAPI.
+2025-04-30 12:42:57.194 -03:00 [DBG] Forwarded activator type request from Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Version=8.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2025-04-30 12:42:57.199 -03:00 [DBG] Opening CNG algorithm 'AES' from provider 'null' with chaining mode CBC.
+2025-04-30 12:42:57.200 -03:00 [DBG] Opening CNG algorithm 'SHA256' from provider 'null' with HMAC.
+2025-04-30 12:42:57.202 -03:00 [DBG] Using key {84d0fdb6-1092-4841-ae42-a6e0af9e2a2c} as the default key.
+2025-04-30 12:42:57.205 -03:00 [DBG] Key ring with default key {84d0fdb6-1092-4841-ae42-a6e0af9e2a2c} was loaded during application startup.
+2025-04-30 12:42:57.356 -03:00 [INF] Now listening on: http://localhost:5231
+2025-04-30 12:42:57.356 -03:00 [DBG] Connection id "0HNC7VMN19VIU" received FIN.
+2025-04-30 12:42:57.356 -03:00 [DBG] Connection id "0HNC7VMN19VIV" received FIN.
+2025-04-30 12:42:57.359 -03:00 [DBG] Loaded hosting startup assembly PedidosAPI
+2025-04-30 12:42:57.374 -03:00 [DBG] Loaded hosting startup assembly Microsoft.WebTools.ApiEndpointDiscovery
+2025-04-30 12:42:57.376 -03:00 [DBG] Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh
+2025-04-30 12:42:57.376 -03:00 [DBG] Connection id "0HNC7VMN19VIV" accepted.
+2025-04-30 12:42:57.376 -03:00 [DBG] Connection id "0HNC7VMN19VIU" accepted.
+2025-04-30 12:42:57.378 -03:00 [DBG] Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net
+2025-04-30 12:42:57.381 -03:00 [DBG] Connection id "0HNC7VMN19VIV" started.
+2025-04-30 12:42:57.381 -03:00 [DBG] Connection id "0HNC7VMN19VIU" started.
+2025-04-30 12:42:57.393 -03:00 [DBG] Connection id "0HNC7VMN19VIV" sending FIN because: "The Socket transport's send loop completed gracefully."
+2025-04-30 12:42:57.393 -03:00 [DBG] Connection id "0HNC7VMN19VIU" sending FIN because: "The Socket transport's send loop completed gracefully."
+2025-04-30 12:42:57.398 -03:00 [DBG] Connection id "0HNC7VMN19VIV" disconnecting.
+2025-04-30 12:42:57.399 -03:00 [DBG] Connection id "0HNC7VMN19VIU" disconnecting.
+2025-04-30 12:42:57.411 -03:00 [DBG] Connection id "0HNC7VMN19VIU" stopped.
+2025-04-30 12:42:57.411 -03:00 [DBG] Connection id "0HNC7VMN19VIV" stopped.
+2025-04-30 12:42:57.710 -03:00 [DBG] Connection id "0HNC7VMN19VJ0" accepted.
+2025-04-30 12:42:57.743 -03:00 [DBG] Connection id "0HNC7VMN19VJ0" started.
+2025-04-30 12:42:57.747 -03:00 [DBG] Connection id "0HNC7VMN19VJ1" accepted.
+2025-04-30 12:42:57.751 -03:00 [DBG] Connection id "0HNC7VMN19VJ1" started.
+2025-04-30 12:42:57.826 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5231/swagger/index.html - null null
+2025-04-30 12:42:57.950 -03:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-04-30 12:42:57.952 -03:00 [INF] Hosting environment: Development
+2025-04-30 12:42:57.959 -03:00 [INF] Content root path: C:\Users\engue\source\git\PedidosAPI\PedidosAPI
+2025-04-30 12:42:57.960 -03:00 [DBG] Hosting started
+2025-04-30 12:42:57.980 -03:00 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2025-04-30 12:42:58.009 -03:00 [DBG] No candidates found for the request path '/swagger/index.html'
+2025-04-30 12:42:58.012 -03:00 [DBG] Request did not match any endpoints
+2025-04-30 12:42:58.076 -03:00 [DBG] Response markup is scheduled to include Browser Link script injection.
+2025-04-30 12:42:58.080 -03:00 [DBG] Response markup is scheduled to include browser refresh script injection.
+2025-04-30 12:42:58.111 -03:00 [DBG] Response markup was updated to include Browser Link script injection.
+2025-04-30 12:42:58.114 -03:00 [DBG] Response markup was updated to include browser refresh script injection.
+2025-04-30 12:42:58.117 -03:00 [DBG] Connection id "0HNC7VMN19VJ0" completed keep alive response.
+2025-04-30 12:42:58.125 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5231/swagger/index.html - 200 null text/html;charset=utf-8 323.6215ms
+2025-04-30 12:42:58.148 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5231/_framework/aspnetcore-browser-refresh.js - null null
+2025-04-30 12:42:58.159 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5231/_vs/browserLink - null null
+2025-04-30 12:42:58.161 -03:00 [DBG] Connection id "0HNC7VMN19VJ0" completed keep alive response.
+2025-04-30 12:42:58.177 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5231/_framework/aspnetcore-browser-refresh.js - 200 13772 application/javascript; charset=utf-8 28.9257ms
+2025-04-30 12:42:58.224 -03:00 [DBG] Connection id "0HNC7VMN19VJ1" completed keep alive response.
+2025-04-30 12:42:58.226 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5231/_vs/browserLink - 200 null text/javascript; charset=UTF-8 67.524ms
+2025-04-30 12:42:58.325 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5231/swagger/v1/swagger.json - null null
+2025-04-30 12:42:58.342 -03:00 [DBG] No candidates found for the request path '/swagger/v1/swagger.json'
+2025-04-30 12:42:58.345 -03:00 [DBG] Request did not match any endpoints
+2025-04-30 12:42:58.372 -03:00 [DBG] Connection id "0HNC7VMN19VJ1" completed keep alive response.
+2025-04-30 12:42:58.382 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5231/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 56.4193ms
+2025-04-30 12:43:11.059 -03:00 [INF] Request starting HTTP/1.1 POST http://localhost:5231/login - application/json 50
+2025-04-30 12:43:11.067 -03:00 [DBG] 1 candidate(s) found for the request path '/login'
+2025-04-30 12:43:11.074 -03:00 [DBG] Endpoint 'PedidosAPI.Controllers.AuthController.Login (PedidosAPI)' with route pattern 'login' is valid for the request path '/login'
+2025-04-30 12:43:11.078 -03:00 [DBG] Request matched endpoint 'PedidosAPI.Controllers.AuthController.Login (PedidosAPI)'
+2025-04-30 12:43:11.081 -03:00 [DBG] Static files was skipped as the request already matched an endpoint.
+2025-04-30 12:43:11.138 -03:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2025-04-30 12:43:11.142 -03:00 [INF] Executing endpoint 'PedidosAPI.Controllers.AuthController.Login (PedidosAPI)'
+2025-04-30 12:43:11.162 -03:00 [INF] Route matched with {action = "Login", controller = "Auth"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Login(LoginRequest) on controller PedidosAPI.Controllers.AuthController (PedidosAPI).
+2025-04-30 12:43:11.167 -03:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2025-04-30 12:43:11.170 -03:00 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2025-04-30 12:43:11.173 -03:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.Filters.ControllerActionFilter (Order: -2147483648)","Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)"]
+2025-04-30 12:43:11.175 -03:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2025-04-30 12:43:11.176 -03:00 [DBG] Execution plan of result filters (in the following order): ["None"]
+2025-04-30 12:43:11.179 -03:00 [DBG] Executing controller factory for controller PedidosAPI.Controllers.AuthController (PedidosAPI)
+2025-04-30 12:43:11.181 -03:00 [DBG] Executed controller factory for controller PedidosAPI.Controllers.AuthController (PedidosAPI)
+2025-04-30 12:43:11.187 -03:00 [DBG] Attempting to bind parameter 'request' of type 'PedidosAPI.Controllers.AuthController+LoginRequest' ...
+2025-04-30 12:43:11.190 -03:00 [DBG] Attempting to bind parameter 'request' of type 'PedidosAPI.Controllers.AuthController+LoginRequest' using the name '' in request data ...
+2025-04-30 12:43:11.193 -03:00 [DBG] Selected input formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonInputFormatter' for content type 'application/json'.
+2025-04-30 12:43:11.200 -03:00 [DBG] Connection id "0HNC7VMN19VJ1", Request id "0HNC7VMN19VJ1:00000003": started reading request body.
+2025-04-30 12:43:11.203 -03:00 [DBG] Connection id "0HNC7VMN19VJ1", Request id "0HNC7VMN19VJ1:00000003": done reading request body.
+2025-04-30 12:43:11.222 -03:00 [DBG] JSON input formatter succeeded, deserializing to type 'PedidosAPI.Controllers.AuthController+LoginRequest'
+2025-04-30 12:43:11.224 -03:00 [DBG] Done attempting to bind parameter 'request' of type 'PedidosAPI.Controllers.AuthController+LoginRequest'.
+2025-04-30 12:43:11.226 -03:00 [DBG] Done attempting to bind parameter 'request' of type 'PedidosAPI.Controllers.AuthController+LoginRequest'.
+2025-04-30 12:43:11.228 -03:00 [DBG] Attempting to validate the bound parameter 'request' of type 'PedidosAPI.Controllers.AuthController+LoginRequest' ...
+2025-04-30 12:43:11.236 -03:00 [DBG] Done attempting to validate the bound parameter 'request' of type 'PedidosAPI.Controllers.AuthController+LoginRequest'.
+2025-04-30 12:43:11.243 -03:00 [INF] Executing StatusCodeResult, setting HTTP status code 401
+2025-04-30 12:43:11.248 -03:00 [INF] Executed action PedidosAPI.Controllers.AuthController.Login (PedidosAPI) in 66.9231ms
+2025-04-30 12:43:11.250 -03:00 [INF] Executed endpoint 'PedidosAPI.Controllers.AuthController.Login (PedidosAPI)'
+2025-04-30 12:43:11.251 -03:00 [DBG] Connection id "0HNC7VMN19VJ1" completed keep alive response.
+2025-04-30 12:43:11.252 -03:00 [INF] Request finished HTTP/1.1 POST http://localhost:5231/login - 401 0 null 193.294ms
+2025-04-30 12:43:27.506 -03:00 [INF] Request starting HTTP/1.1 POST http://localhost:5231/login - application/json 34
+2025-04-30 12:43:27.511 -03:00 [DBG] 1 candidate(s) found for the request path '/login'
+2025-04-30 12:43:27.514 -03:00 [DBG] Endpoint 'PedidosAPI.Controllers.AuthController.Login (PedidosAPI)' with route pattern 'login' is valid for the request path '/login'
+2025-04-30 12:43:27.517 -03:00 [DBG] Request matched endpoint 'PedidosAPI.Controllers.AuthController.Login (PedidosAPI)'
+2025-04-30 12:43:27.519 -03:00 [DBG] Static files was skipped as the request already matched an endpoint.
+2025-04-30 12:43:27.523 -03:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2025-04-30 12:43:27.526 -03:00 [INF] Executing endpoint 'PedidosAPI.Controllers.AuthController.Login (PedidosAPI)'
+2025-04-30 12:43:27.529 -03:00 [INF] Route matched with {action = "Login", controller = "Auth"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Login(LoginRequest) on controller PedidosAPI.Controllers.AuthController (PedidosAPI).
+2025-04-30 12:43:27.532 -03:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2025-04-30 12:43:27.535 -03:00 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2025-04-30 12:43:27.537 -03:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.Filters.ControllerActionFilter (Order: -2147483648)","Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)"]
+2025-04-30 12:43:27.541 -03:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2025-04-30 12:43:27.543 -03:00 [DBG] Execution plan of result filters (in the following order): ["None"]
+2025-04-30 12:43:27.544 -03:00 [DBG] Executing controller factory for controller PedidosAPI.Controllers.AuthController (PedidosAPI)
+2025-04-30 12:43:27.546 -03:00 [DBG] Executed controller factory for controller PedidosAPI.Controllers.AuthController (PedidosAPI)
+2025-04-30 12:43:27.547 -03:00 [DBG] Attempting to bind parameter 'request' of type 'PedidosAPI.Controllers.AuthController+LoginRequest' ...
+2025-04-30 12:43:27.548 -03:00 [DBG] Attempting to bind parameter 'request' of type 'PedidosAPI.Controllers.AuthController+LoginRequest' using the name '' in request data ...
+2025-04-30 12:43:27.550 -03:00 [DBG] Selected input formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonInputFormatter' for content type 'application/json'.
+2025-04-30 12:43:27.551 -03:00 [DBG] Connection id "0HNC7VMN19VJ1", Request id "0HNC7VMN19VJ1:00000004": started reading request body.
+2025-04-30 12:43:27.553 -03:00 [DBG] Connection id "0HNC7VMN19VJ1", Request id "0HNC7VMN19VJ1:00000004": done reading request body.
+2025-04-30 12:43:27.560 -03:00 [DBG] JSON input formatter threw an exception: ',' is an invalid start of a value. Path: $.username | LineNumber: 1 | BytePositionInLine: 14.
+2025-04-30 12:43:27.561 -03:00 [DBG] Done attempting to bind parameter 'request' of type 'PedidosAPI.Controllers.AuthController+LoginRequest'.
+2025-04-30 12:43:27.562 -03:00 [DBG] Done attempting to bind parameter 'request' of type 'PedidosAPI.Controllers.AuthController+LoginRequest'.
+2025-04-30 12:43:27.563 -03:00 [DBG] Attempting to validate the bound parameter 'request' of type 'PedidosAPI.Controllers.AuthController+LoginRequest' ...
+2025-04-30 12:43:27.565 -03:00 [DBG] Done attempting to validate the bound parameter 'request' of type 'PedidosAPI.Controllers.AuthController+LoginRequest'.
+2025-04-30 12:45:52.461 -03:00 [DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.TryParseModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"]
+2025-04-30 12:45:52.587 -03:00 [DBG] Hosting starting
+2025-04-30 12:45:52.621 -03:00 [INF] User profile is available. Using 'C:\Users\engue\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-04-30 12:45:52.634 -03:00 [DBG] Reading data from file 'C:\Users\engue\AppData\Local\ASP.NET\DataProtection-Keys\key-84d0fdb6-1092-4841-ae42-a6e0af9e2a2c.xml'.
+2025-04-30 12:45:52.642 -03:00 [DBG] Reading data from file 'C:\Users\engue\AppData\Local\ASP.NET\DataProtection-Keys\key-e060b36c-62ad-4e46-ae6d-995d0b4708ad.xml'.
+2025-04-30 12:45:52.643 -03:00 [DBG] Reading data from file 'C:\Users\engue\AppData\Local\ASP.NET\DataProtection-Keys\key-f5988c01-d3af-4e7c-b44a-246fd5e27ad1.xml'.
+2025-04-30 12:45:52.647 -03:00 [DBG] Found key {84d0fdb6-1092-4841-ae42-a6e0af9e2a2c}.
+2025-04-30 12:45:52.651 -03:00 [DBG] Found key {e060b36c-62ad-4e46-ae6d-995d0b4708ad}.
+2025-04-30 12:45:52.652 -03:00 [DBG] Found key {f5988c01-d3af-4e7c-b44a-246fd5e27ad1}.
+2025-04-30 12:45:52.658 -03:00 [DBG] Considering key {84d0fdb6-1092-4841-ae42-a6e0af9e2a2c} with expiration date 2025-07-29 06:06:56Z as default key.
+2025-04-30 12:45:52.661 -03:00 [DBG] Forwarded activator type request from Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Version=8.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2025-04-30 12:45:52.663 -03:00 [DBG] Decrypting secret element using Windows DPAPI.
+2025-04-30 12:45:52.665 -03:00 [DBG] Forwarded activator type request from Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Version=8.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2025-04-30 12:45:52.669 -03:00 [DBG] Opening CNG algorithm 'AES' from provider 'null' with chaining mode CBC.
+2025-04-30 12:45:52.671 -03:00 [DBG] Opening CNG algorithm 'SHA256' from provider 'null' with HMAC.
+2025-04-30 12:45:52.673 -03:00 [DBG] Using key {84d0fdb6-1092-4841-ae42-a6e0af9e2a2c} as the default key.
+2025-04-30 12:45:52.674 -03:00 [DBG] Key ring with default key {84d0fdb6-1092-4841-ae42-a6e0af9e2a2c} was loaded during application startup.
+2025-04-30 12:45:52.808 -03:00 [INF] Now listening on: http://localhost:5231
+2025-04-30 12:45:52.810 -03:00 [DBG] Loaded hosting startup assembly PedidosAPI
+2025-04-30 12:45:52.811 -03:00 [DBG] Loaded hosting startup assembly Microsoft.WebTools.ApiEndpointDiscovery
+2025-04-30 12:45:52.812 -03:00 [DBG] Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh
+2025-04-30 12:45:52.812 -03:00 [DBG] Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net
+2025-04-30 12:45:53.026 -03:00 [DBG] Connection id "0HNC7VOBCK7LV" accepted.
+2025-04-30 12:45:53.031 -03:00 [DBG] Connection id "0HNC7VOBCK7LV" started.
+2025-04-30 12:45:53.054 -03:00 [DBG] Connection id "0HNC7VOBCK7LV" received FIN.
+2025-04-30 12:45:53.060 -03:00 [DBG] Connection id "0HNC7VOBCK7LV" sending FIN because: "The Socket transport's send loop completed gracefully."
+2025-04-30 12:45:53.064 -03:00 [DBG] Connection id "0HNC7VOBCK7LV" disconnecting.
+2025-04-30 12:45:53.066 -03:00 [DBG] Connection id "0HNC7VOBCK7LV" stopped.
+2025-04-30 12:45:53.091 -03:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-04-30 12:45:53.093 -03:00 [INF] Hosting environment: Development
+2025-04-30 12:45:53.095 -03:00 [INF] Content root path: C:\Users\engue\source\git\PedidosAPI\PedidosAPI
+2025-04-30 12:45:53.097 -03:00 [DBG] Hosting started
+2025-04-30 12:45:53.398 -03:00 [DBG] Connection id "0HNC7VOBCK7M0" accepted.
+2025-04-30 12:45:53.427 -03:00 [DBG] Connection id "0HNC7VOBCK7M1" accepted.
+2025-04-30 12:45:53.428 -03:00 [DBG] Connection id "0HNC7VOBCK7M0" started.
+2025-04-30 12:45:53.429 -03:00 [DBG] Connection id "0HNC7VOBCK7M1" started.
+2025-04-30 12:45:53.498 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5231/swagger/index.html - null null
+2025-04-30 12:45:53.647 -03:00 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2025-04-30 12:45:53.672 -03:00 [DBG] No candidates found for the request path '/swagger/index.html'
+2025-04-30 12:45:53.674 -03:00 [DBG] Request did not match any endpoints
+2025-04-30 12:45:53.728 -03:00 [DBG] Response markup is scheduled to include Browser Link script injection.
+2025-04-30 12:45:53.730 -03:00 [DBG] Response markup is scheduled to include browser refresh script injection.
+2025-04-30 12:45:53.758 -03:00 [DBG] Response markup was updated to include Browser Link script injection.
+2025-04-30 12:45:53.760 -03:00 [DBG] Response markup was updated to include browser refresh script injection.
+2025-04-30 12:45:53.763 -03:00 [DBG] Connection id "0HNC7VOBCK7M0" completed keep alive response.
+2025-04-30 12:45:53.781 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5231/swagger/index.html - 200 null text/html;charset=utf-8 283.5816ms
+2025-04-30 12:45:53.809 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5231/_vs/browserLink - null null
+2025-04-30 12:45:53.814 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5231/_framework/aspnetcore-browser-refresh.js - null null
+2025-04-30 12:45:53.827 -03:00 [DBG] Connection id "0HNC7VOBCK7M1" completed keep alive response.
+2025-04-30 12:45:53.833 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5231/_framework/aspnetcore-browser-refresh.js - 200 13772 application/javascript; charset=utf-8 19.2603ms
+2025-04-30 12:45:53.876 -03:00 [DBG] Connection id "0HNC7VOBCK7M0" completed keep alive response.
+2025-04-30 12:45:53.879 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5231/_vs/browserLink - 200 null text/javascript; charset=UTF-8 70.4357ms
+2025-04-30 12:45:53.969 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5231/swagger/v1/swagger.json - null null
+2025-04-30 12:45:53.999 -03:00 [DBG] No candidates found for the request path '/swagger/v1/swagger.json'
+2025-04-30 12:45:54.002 -03:00 [DBG] Request did not match any endpoints
+2025-04-30 12:45:54.046 -03:00 [DBG] Connection id "0HNC7VOBCK7M0" completed keep alive response.
+2025-04-30 12:45:54.048 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5231/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 79.2039ms
+2025-04-30 12:45:57.933 -03:00 [INF] Request starting HTTP/1.1 POST http://localhost:5231/login - application/json 50
+2025-04-30 12:45:57.941 -03:00 [DBG] 1 candidate(s) found for the request path '/login'
+2025-04-30 12:45:57.946 -03:00 [DBG] Endpoint 'PedidosAPI.Controllers.AuthController.Login (PedidosAPI)' with route pattern 'login' is valid for the request path '/login'
+2025-04-30 12:45:57.948 -03:00 [DBG] Request matched endpoint 'PedidosAPI.Controllers.AuthController.Login (PedidosAPI)'
+2025-04-30 12:45:57.950 -03:00 [DBG] Static files was skipped as the request already matched an endpoint.
+2025-04-30 12:45:58.003 -03:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2025-04-30 12:45:58.007 -03:00 [INF] Executing endpoint 'PedidosAPI.Controllers.AuthController.Login (PedidosAPI)'
+2025-04-30 12:45:58.029 -03:00 [INF] Route matched with {action = "Login", controller = "Auth"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Login(Application.Models.LoginRequest) on controller PedidosAPI.Controllers.AuthController (PedidosAPI).
+2025-04-30 12:45:58.032 -03:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2025-04-30 12:45:58.033 -03:00 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2025-04-30 12:45:58.034 -03:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.Filters.ControllerActionFilter (Order: -2147483648)","Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)"]
+2025-04-30 12:45:58.037 -03:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2025-04-30 12:45:58.038 -03:00 [DBG] Execution plan of result filters (in the following order): ["None"]
+2025-04-30 12:45:58.041 -03:00 [DBG] Executing controller factory for controller PedidosAPI.Controllers.AuthController (PedidosAPI)
+2025-04-30 12:45:58.042 -03:00 [DBG] Executed controller factory for controller PedidosAPI.Controllers.AuthController (PedidosAPI)
+2025-04-30 12:45:58.046 -03:00 [DBG] Attempting to bind parameter 'request' of type 'Application.Models.LoginRequest' ...
+2025-04-30 12:45:58.049 -03:00 [DBG] Attempting to bind parameter 'request' of type 'Application.Models.LoginRequest' using the name '' in request data ...
+2025-04-30 12:45:58.051 -03:00 [DBG] Selected input formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonInputFormatter' for content type 'application/json'.
+2025-04-30 12:45:58.059 -03:00 [DBG] Connection id "0HNC7VOBCK7M0", Request id "0HNC7VOBCK7M0:00000004": started reading request body.
+2025-04-30 12:45:58.061 -03:00 [DBG] Connection id "0HNC7VOBCK7M0", Request id "0HNC7VOBCK7M0:00000004": done reading request body.
+2025-04-30 12:45:58.074 -03:00 [DBG] JSON input formatter succeeded, deserializing to type 'Application.Models.LoginRequest'
+2025-04-30 12:45:58.076 -03:00 [DBG] Done attempting to bind parameter 'request' of type 'Application.Models.LoginRequest'.
+2025-04-30 12:45:58.077 -03:00 [DBG] Done attempting to bind parameter 'request' of type 'Application.Models.LoginRequest'.
+2025-04-30 12:45:58.078 -03:00 [DBG] Attempting to validate the bound parameter 'request' of type 'Application.Models.LoginRequest' ...
+2025-04-30 12:45:58.085 -03:00 [DBG] Done attempting to validate the bound parameter 'request' of type 'Application.Models.LoginRequest'.
+2025-04-30 12:45:58.092 -03:00 [INF] Executing StatusCodeResult, setting HTTP status code 401
+2025-04-30 12:45:58.096 -03:00 [INF] Executed action PedidosAPI.Controllers.AuthController.Login (PedidosAPI) in 54.3583ms
+2025-04-30 12:45:58.097 -03:00 [INF] Executed endpoint 'PedidosAPI.Controllers.AuthController.Login (PedidosAPI)'
+2025-04-30 12:45:58.098 -03:00 [DBG] Connection id "0HNC7VOBCK7M0" completed keep alive response.
+2025-04-30 12:45:58.100 -03:00 [INF] Request finished HTTP/1.1 POST http://localhost:5231/login - 401 0 null 166.953ms
+2025-04-30 12:46:19.213 -03:00 [INF] Request starting HTTP/1.1 POST http://localhost:5231/login - application/json 33
+2025-04-30 12:46:19.229 -03:00 [DBG] 1 candidate(s) found for the request path '/login'
+2025-04-30 12:46:19.230 -03:00 [DBG] Endpoint 'PedidosAPI.Controllers.AuthController.Login (PedidosAPI)' with route pattern 'login' is valid for the request path '/login'
+2025-04-30 12:46:19.231 -03:00 [DBG] Request matched endpoint 'PedidosAPI.Controllers.AuthController.Login (PedidosAPI)'
+2025-04-30 12:46:19.232 -03:00 [DBG] Static files was skipped as the request already matched an endpoint.
+2025-04-30 12:46:19.234 -03:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2025-04-30 12:46:19.242 -03:00 [INF] Executing endpoint 'PedidosAPI.Controllers.AuthController.Login (PedidosAPI)'
+2025-04-30 12:46:19.243 -03:00 [INF] Route matched with {action = "Login", controller = "Auth"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Login(Application.Models.LoginRequest) on controller PedidosAPI.Controllers.AuthController (PedidosAPI).
+2025-04-30 12:46:19.245 -03:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2025-04-30 12:46:19.246 -03:00 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2025-04-30 12:46:19.247 -03:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.Filters.ControllerActionFilter (Order: -2147483648)","Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)"]
+2025-04-30 12:46:19.249 -03:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2025-04-30 12:46:19.250 -03:00 [DBG] Execution plan of result filters (in the following order): ["None"]
+2025-04-30 12:46:19.251 -03:00 [DBG] Executing controller factory for controller PedidosAPI.Controllers.AuthController (PedidosAPI)
+2025-04-30 12:46:19.253 -03:00 [DBG] Executed controller factory for controller PedidosAPI.Controllers.AuthController (PedidosAPI)
+2025-04-30 12:46:19.254 -03:00 [DBG] Attempting to bind parameter 'request' of type 'Application.Models.LoginRequest' ...
+2025-04-30 12:46:19.256 -03:00 [DBG] Attempting to bind parameter 'request' of type 'Application.Models.LoginRequest' using the name '' in request data ...
+2025-04-30 12:46:19.257 -03:00 [DBG] Selected input formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonInputFormatter' for content type 'application/json'.
+2025-04-30 12:46:19.258 -03:00 [DBG] Connection id "0HNC7VOBCK7M0", Request id "0HNC7VOBCK7M0:00000005": started reading request body.
+2025-04-30 12:46:19.259 -03:00 [DBG] Connection id "0HNC7VOBCK7M0", Request id "0HNC7VOBCK7M0:00000005": done reading request body.
+2025-04-30 12:46:19.265 -03:00 [DBG] JSON input formatter threw an exception: ':' is invalid after a value. Expected either ',', '}', or ']'. Path: $ | LineNumber: 2 | BytePositionInLine: 12.
+2025-04-30 12:46:19.266 -03:00 [DBG] Done attempting to bind parameter 'request' of type 'Application.Models.LoginRequest'.
+2025-04-30 12:46:19.267 -03:00 [DBG] Done attempting to bind parameter 'request' of type 'Application.Models.LoginRequest'.
+2025-04-30 12:46:19.268 -03:00 [DBG] Attempting to validate the bound parameter 'request' of type 'Application.Models.LoginRequest' ...
+2025-04-30 12:46:19.271 -03:00 [DBG] Done attempting to validate the bound parameter 'request' of type 'Application.Models.LoginRequest'.
+2025-04-30 12:46:39.679 -03:00 [INF] Executed action PedidosAPI.Controllers.AuthController.Login (PedidosAPI) in 20427.939ms
+2025-04-30 12:46:39.682 -03:00 [INF] Executed endpoint 'PedidosAPI.Controllers.AuthController.Login (PedidosAPI)'
+2025-04-30 12:46:42.173 -03:00 [ERR] Error no controlado
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at PedidosAPI.Controllers.AuthController.Login(LoginRequest request) in C:\Users\engue\source\git\PedidosAPI\PedidosAPI\Controllers\AuthController.cs:line 25
+   at lambda_method2(Closure, Object, Object[])
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.SyncActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeNextActionFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at PedidosAPI.Middlewares.ErrorHandlingMiddleware.Invoke(HttpContext context) in C:\Users\engue\source\git\PedidosAPI\PedidosAPI\Middlewares\ErrorHandlingMiddleware.cs:line 24
+2025-04-30 12:46:42.209 -03:00 [DBG] Connection id "0HNC7VOBCK7M0" completed keep alive response.
+2025-04-30 12:46:42.211 -03:00 [INF] Request finished HTTP/1.1 POST http://localhost:5231/login - 500 null application/json 22999.0254ms
+2025-04-30 12:46:53.584 -03:00 [INF] Request starting HTTP/1.1 POST http://localhost:5231/login - application/json 38
+2025-04-30 12:46:53.589 -03:00 [DBG] 1 candidate(s) found for the request path '/login'
+2025-04-30 12:46:53.592 -03:00 [DBG] Endpoint 'PedidosAPI.Controllers.AuthController.Login (PedidosAPI)' with route pattern 'login' is valid for the request path '/login'
+2025-04-30 12:46:53.593 -03:00 [DBG] Request matched endpoint 'PedidosAPI.Controllers.AuthController.Login (PedidosAPI)'
+2025-04-30 12:46:53.594 -03:00 [DBG] Static files was skipped as the request already matched an endpoint.
+2025-04-30 12:46:53.597 -03:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2025-04-30 12:46:53.599 -03:00 [INF] Executing endpoint 'PedidosAPI.Controllers.AuthController.Login (PedidosAPI)'
+2025-04-30 12:46:53.601 -03:00 [INF] Route matched with {action = "Login", controller = "Auth"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Login(Application.Models.LoginRequest) on controller PedidosAPI.Controllers.AuthController (PedidosAPI).
+2025-04-30 12:46:53.603 -03:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2025-04-30 12:46:53.605 -03:00 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2025-04-30 12:46:53.607 -03:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.Filters.ControllerActionFilter (Order: -2147483648)","Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)"]
+2025-04-30 12:46:53.608 -03:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2025-04-30 12:46:53.609 -03:00 [DBG] Execution plan of result filters (in the following order): ["None"]
+2025-04-30 12:46:53.611 -03:00 [DBG] Executing controller factory for controller PedidosAPI.Controllers.AuthController (PedidosAPI)
+2025-04-30 12:46:53.612 -03:00 [DBG] Executed controller factory for controller PedidosAPI.Controllers.AuthController (PedidosAPI)
+2025-04-30 12:46:53.613 -03:00 [DBG] Attempting to bind parameter 'request' of type 'Application.Models.LoginRequest' ...
+2025-04-30 12:46:53.614 -03:00 [DBG] Attempting to bind parameter 'request' of type 'Application.Models.LoginRequest' using the name '' in request data ...
+2025-04-30 12:46:53.615 -03:00 [DBG] Selected input formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonInputFormatter' for content type 'application/json'.
+2025-04-30 12:46:53.616 -03:00 [DBG] Connection id "0HNC7VOBCK7M0", Request id "0HNC7VOBCK7M0:00000006": started reading request body.
+2025-04-30 12:46:53.618 -03:00 [DBG] Connection id "0HNC7VOBCK7M0", Request id "0HNC7VOBCK7M0:00000006": done reading request body.
+2025-04-30 12:46:53.619 -03:00 [DBG] JSON input formatter succeeded, deserializing to type 'Application.Models.LoginRequest'
+2025-04-30 12:46:53.620 -03:00 [DBG] Done attempting to bind parameter 'request' of type 'Application.Models.LoginRequest'.
+2025-04-30 12:46:53.622 -03:00 [DBG] Done attempting to bind parameter 'request' of type 'Application.Models.LoginRequest'.
+2025-04-30 12:46:53.623 -03:00 [DBG] Attempting to validate the bound parameter 'request' of type 'Application.Models.LoginRequest' ...
+2025-04-30 12:46:53.625 -03:00 [DBG] Done attempting to validate the bound parameter 'request' of type 'Application.Models.LoginRequest'.
+2025-04-30 12:46:53.626 -03:00 [INF] Executing StatusCodeResult, setting HTTP status code 401
+2025-04-30 12:46:53.627 -03:00 [INF] Executed action PedidosAPI.Controllers.AuthController.Login (PedidosAPI) in 16.7151ms
+2025-04-30 12:46:53.629 -03:00 [INF] Executed endpoint 'PedidosAPI.Controllers.AuthController.Login (PedidosAPI)'
+2025-04-30 12:46:53.630 -03:00 [DBG] Connection id "0HNC7VOBCK7M0" completed keep alive response.
+2025-04-30 12:46:53.631 -03:00 [INF] Request finished HTTP/1.1 POST http://localhost:5231/login - 401 0 null 46.6503ms
+2025-04-30 12:47:00.713 -03:00 [INF] Request starting HTTP/1.1 POST http://localhost:5231/login - application/json 38
+2025-04-30 12:47:00.716 -03:00 [DBG] 1 candidate(s) found for the request path '/login'
+2025-04-30 12:47:00.717 -03:00 [DBG] Endpoint 'PedidosAPI.Controllers.AuthController.Login (PedidosAPI)' with route pattern 'login' is valid for the request path '/login'
+2025-04-30 12:47:00.721 -03:00 [DBG] Request matched endpoint 'PedidosAPI.Controllers.AuthController.Login (PedidosAPI)'
+2025-04-30 12:47:00.724 -03:00 [DBG] Static files was skipped as the request already matched an endpoint.
+2025-04-30 12:47:00.725 -03:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2025-04-30 12:47:00.728 -03:00 [INF] Executing endpoint 'PedidosAPI.Controllers.AuthController.Login (PedidosAPI)'
+2025-04-30 12:47:00.729 -03:00 [INF] Route matched with {action = "Login", controller = "Auth"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Login(Application.Models.LoginRequest) on controller PedidosAPI.Controllers.AuthController (PedidosAPI).
+2025-04-30 12:47:00.730 -03:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2025-04-30 12:47:00.732 -03:00 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2025-04-30 12:47:00.733 -03:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.Filters.ControllerActionFilter (Order: -2147483648)","Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)"]
+2025-04-30 12:47:00.737 -03:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2025-04-30 12:47:00.739 -03:00 [DBG] Execution plan of result filters (in the following order): ["None"]
+2025-04-30 12:47:00.740 -03:00 [DBG] Executing controller factory for controller PedidosAPI.Controllers.AuthController (PedidosAPI)
+2025-04-30 12:47:00.742 -03:00 [DBG] Executed controller factory for controller PedidosAPI.Controllers.AuthController (PedidosAPI)
+2025-04-30 12:47:00.744 -03:00 [DBG] Attempting to bind parameter 'request' of type 'Application.Models.LoginRequest' ...
+2025-04-30 12:47:00.745 -03:00 [DBG] Attempting to bind parameter 'request' of type 'Application.Models.LoginRequest' using the name '' in request data ...
+2025-04-30 12:47:00.746 -03:00 [DBG] Selected input formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonInputFormatter' for content type 'application/json'.
+2025-04-30 12:47:00.748 -03:00 [DBG] Connection id "0HNC7VOBCK7M0", Request id "0HNC7VOBCK7M0:00000007": started reading request body.
+2025-04-30 12:47:00.749 -03:00 [DBG] Connection id "0HNC7VOBCK7M0", Request id "0HNC7VOBCK7M0:00000007": done reading request body.
+2025-04-30 12:47:00.750 -03:00 [DBG] JSON input formatter succeeded, deserializing to type 'Application.Models.LoginRequest'
+2025-04-30 12:47:00.752 -03:00 [DBG] Done attempting to bind parameter 'request' of type 'Application.Models.LoginRequest'.
+2025-04-30 12:47:00.753 -03:00 [DBG] Done attempting to bind parameter 'request' of type 'Application.Models.LoginRequest'.
+2025-04-30 12:47:00.755 -03:00 [DBG] Attempting to validate the bound parameter 'request' of type 'Application.Models.LoginRequest' ...
+2025-04-30 12:47:00.756 -03:00 [DBG] Done attempting to validate the bound parameter 'request' of type 'Application.Models.LoginRequest'.
+2025-04-30 12:47:00.757 -03:00 [INF] Executing StatusCodeResult, setting HTTP status code 401
+2025-04-30 12:47:00.758 -03:00 [INF] Executed action PedidosAPI.Controllers.AuthController.Login (PedidosAPI) in 17.5586ms
+2025-04-30 12:47:00.759 -03:00 [INF] Executed endpoint 'PedidosAPI.Controllers.AuthController.Login (PedidosAPI)'
+2025-04-30 12:47:00.759 -03:00 [DBG] Connection id "0HNC7VOBCK7M0" completed keep alive response.
+2025-04-30 12:47:00.760 -03:00 [INF] Request finished HTTP/1.1 POST http://localhost:5231/login - 401 0 null 47.8866ms
+2025-04-30 12:47:19.339 -03:00 [DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.TryParseModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"]
+2025-04-30 12:47:19.463 -03:00 [DBG] Hosting starting
+2025-04-30 12:47:19.497 -03:00 [INF] User profile is available. Using 'C:\Users\engue\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-04-30 12:47:19.508 -03:00 [DBG] Reading data from file 'C:\Users\engue\AppData\Local\ASP.NET\DataProtection-Keys\key-84d0fdb6-1092-4841-ae42-a6e0af9e2a2c.xml'.
+2025-04-30 12:47:19.513 -03:00 [DBG] Reading data from file 'C:\Users\engue\AppData\Local\ASP.NET\DataProtection-Keys\key-e060b36c-62ad-4e46-ae6d-995d0b4708ad.xml'.
+2025-04-30 12:47:19.514 -03:00 [DBG] Reading data from file 'C:\Users\engue\AppData\Local\ASP.NET\DataProtection-Keys\key-f5988c01-d3af-4e7c-b44a-246fd5e27ad1.xml'.
+2025-04-30 12:47:19.517 -03:00 [DBG] Found key {84d0fdb6-1092-4841-ae42-a6e0af9e2a2c}.
+2025-04-30 12:47:19.524 -03:00 [DBG] Found key {e060b36c-62ad-4e46-ae6d-995d0b4708ad}.
+2025-04-30 12:47:19.526 -03:00 [DBG] Found key {f5988c01-d3af-4e7c-b44a-246fd5e27ad1}.
+2025-04-30 12:47:19.531 -03:00 [DBG] Considering key {84d0fdb6-1092-4841-ae42-a6e0af9e2a2c} with expiration date 2025-07-29 06:06:56Z as default key.
+2025-04-30 12:47:19.533 -03:00 [DBG] Forwarded activator type request from Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Version=8.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2025-04-30 12:47:19.537 -03:00 [DBG] Decrypting secret element using Windows DPAPI.
+2025-04-30 12:47:19.541 -03:00 [DBG] Forwarded activator type request from Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Version=8.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2025-04-30 12:47:19.546 -03:00 [DBG] Opening CNG algorithm 'AES' from provider 'null' with chaining mode CBC.
+2025-04-30 12:47:19.548 -03:00 [DBG] Opening CNG algorithm 'SHA256' from provider 'null' with HMAC.
+2025-04-30 12:47:19.550 -03:00 [DBG] Using key {84d0fdb6-1092-4841-ae42-a6e0af9e2a2c} as the default key.
+2025-04-30 12:47:19.551 -03:00 [DBG] Key ring with default key {84d0fdb6-1092-4841-ae42-a6e0af9e2a2c} was loaded during application startup.
+2025-04-30 12:47:19.699 -03:00 [INF] Now listening on: http://localhost:5231
+2025-04-30 12:47:19.700 -03:00 [DBG] Loaded hosting startup assembly PedidosAPI
+2025-04-30 12:47:19.702 -03:00 [DBG] Loaded hosting startup assembly Microsoft.WebTools.ApiEndpointDiscovery
+2025-04-30 12:47:19.705 -03:00 [DBG] Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh
+2025-04-30 12:47:19.706 -03:00 [DBG] Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net
+2025-04-30 12:47:19.759 -03:00 [DBG] Connection id "0HNC7VP57OOAR" received FIN.
+2025-04-30 12:47:19.759 -03:00 [DBG] Connection id "0HNC7VP57OOAS" received FIN.
+2025-04-30 12:47:19.775 -03:00 [DBG] Connection id "0HNC7VP57OOAS" accepted.
+2025-04-30 12:47:19.775 -03:00 [DBG] Connection id "0HNC7VP57OOAR" accepted.
+2025-04-30 12:47:19.776 -03:00 [DBG] Connection id "0HNC7VP57OOAS" started.
+2025-04-30 12:47:19.777 -03:00 [DBG] Connection id "0HNC7VP57OOAR" started.
+2025-04-30 12:47:19.785 -03:00 [DBG] Connection id "0HNC7VP57OOAR" sending FIN because: "The Socket transport's send loop completed gracefully."
+2025-04-30 12:47:19.785 -03:00 [DBG] Connection id "0HNC7VP57OOAS" sending FIN because: "The Socket transport's send loop completed gracefully."
+2025-04-30 12:47:19.790 -03:00 [DBG] Connection id "0HNC7VP57OOAS" disconnecting.
+2025-04-30 12:47:19.790 -03:00 [DBG] Connection id "0HNC7VP57OOAR" disconnecting.
+2025-04-30 12:47:19.800 -03:00 [DBG] Connection id "0HNC7VP57OOAS" stopped.
+2025-04-30 12:47:19.810 -03:00 [DBG] Connection id "0HNC7VP57OOAR" stopped.
+2025-04-30 12:47:19.834 -03:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-04-30 12:47:19.836 -03:00 [INF] Hosting environment: Development
+2025-04-30 12:47:19.837 -03:00 [INF] Content root path: C:\Users\engue\source\git\PedidosAPI\PedidosAPI
+2025-04-30 12:47:19.839 -03:00 [DBG] Hosting started
+2025-04-30 12:47:20.146 -03:00 [DBG] Connection id "0HNC7VP57OOAT" accepted.
+2025-04-30 12:47:20.151 -03:00 [DBG] Connection id "0HNC7VP57OOAT" started.
+2025-04-30 12:47:20.158 -03:00 [DBG] Connection id "0HNC7VP57OOAU" accepted.
+2025-04-30 12:47:20.164 -03:00 [DBG] Connection id "0HNC7VP57OOAU" started.
+2025-04-30 12:47:20.221 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5231/swagger/index.html - null null
+2025-04-30 12:47:20.378 -03:00 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2025-04-30 12:47:20.405 -03:00 [DBG] No candidates found for the request path '/swagger/index.html'
+2025-04-30 12:47:20.410 -03:00 [DBG] Request did not match any endpoints
+2025-04-30 12:47:20.466 -03:00 [DBG] Response markup is scheduled to include Browser Link script injection.
+2025-04-30 12:47:20.470 -03:00 [DBG] Response markup is scheduled to include browser refresh script injection.
+2025-04-30 12:47:20.494 -03:00 [DBG] Response markup was updated to include Browser Link script injection.
+2025-04-30 12:47:20.495 -03:00 [DBG] Response markup was updated to include browser refresh script injection.
+2025-04-30 12:47:20.499 -03:00 [DBG] Connection id "0HNC7VP57OOAU" completed keep alive response.
+2025-04-30 12:47:20.503 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5231/swagger/index.html - 200 null text/html;charset=utf-8 300.3795ms
+2025-04-30 12:47:20.532 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5231/_vs/browserLink - null null
+2025-04-30 12:47:20.542 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5231/_framework/aspnetcore-browser-refresh.js - null null
+2025-04-30 12:47:20.548 -03:00 [DBG] Connection id "0HNC7VP57OOAT" completed keep alive response.
+2025-04-30 12:47:20.549 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5231/_framework/aspnetcore-browser-refresh.js - 200 13772 application/javascript; charset=utf-8 6.9336ms
+2025-04-30 12:47:20.581 -03:00 [DBG] Connection id "0HNC7VP57OOAU" completed keep alive response.
+2025-04-30 12:47:20.582 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5231/_vs/browserLink - 200 null text/javascript; charset=UTF-8 50.0922ms
+2025-04-30 12:47:20.672 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5231/swagger/v1/swagger.json - null null
+2025-04-30 12:47:20.708 -03:00 [DBG] No candidates found for the request path '/swagger/v1/swagger.json'
+2025-04-30 12:47:20.710 -03:00 [DBG] Request did not match any endpoints
+2025-04-30 12:47:20.745 -03:00 [DBG] Connection id "0HNC7VP57OOAU" completed keep alive response.
+2025-04-30 12:47:20.747 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5231/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 74.2349ms
+2025-04-30 12:47:28.220 -03:00 [INF] Request starting HTTP/1.1 POST http://localhost:5231/login - application/json 50
+2025-04-30 12:47:28.229 -03:00 [DBG] 1 candidate(s) found for the request path '/login'
+2025-04-30 12:47:28.233 -03:00 [DBG] Endpoint 'PedidosAPI.Controllers.AuthController.Login (PedidosAPI)' with route pattern 'login' is valid for the request path '/login'
+2025-04-30 12:47:28.236 -03:00 [DBG] Request matched endpoint 'PedidosAPI.Controllers.AuthController.Login (PedidosAPI)'
+2025-04-30 12:47:28.240 -03:00 [DBG] Static files was skipped as the request already matched an endpoint.
+2025-04-30 12:47:28.310 -03:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2025-04-30 12:47:28.315 -03:00 [INF] Executing endpoint 'PedidosAPI.Controllers.AuthController.Login (PedidosAPI)'
+2025-04-30 12:47:28.342 -03:00 [INF] Route matched with {action = "Login", controller = "Auth"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Login(Application.Models.LoginRequest) on controller PedidosAPI.Controllers.AuthController (PedidosAPI).
+2025-04-30 12:47:28.347 -03:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2025-04-30 12:47:28.350 -03:00 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2025-04-30 12:47:28.351 -03:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.Filters.ControllerActionFilter (Order: -2147483648)","Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)"]
+2025-04-30 12:47:28.354 -03:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2025-04-30 12:47:28.356 -03:00 [DBG] Execution plan of result filters (in the following order): ["None"]
+2025-04-30 12:47:28.358 -03:00 [DBG] Executing controller factory for controller PedidosAPI.Controllers.AuthController (PedidosAPI)
+2025-04-30 12:47:28.360 -03:00 [DBG] Executed controller factory for controller PedidosAPI.Controllers.AuthController (PedidosAPI)
+2025-04-30 12:47:28.364 -03:00 [DBG] Attempting to bind parameter 'request' of type 'Application.Models.LoginRequest' ...
+2025-04-30 12:47:28.368 -03:00 [DBG] Attempting to bind parameter 'request' of type 'Application.Models.LoginRequest' using the name '' in request data ...
+2025-04-30 12:47:28.371 -03:00 [DBG] Selected input formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonInputFormatter' for content type 'application/json'.
+2025-04-30 12:47:28.378 -03:00 [DBG] Connection id "0HNC7VP57OOAU", Request id "0HNC7VP57OOAU:00000004": started reading request body.
+2025-04-30 12:47:28.379 -03:00 [DBG] Connection id "0HNC7VP57OOAU", Request id "0HNC7VP57OOAU:00000004": done reading request body.
+2025-04-30 12:47:28.395 -03:00 [DBG] JSON input formatter succeeded, deserializing to type 'Application.Models.LoginRequest'
+2025-04-30 12:47:28.398 -03:00 [DBG] Done attempting to bind parameter 'request' of type 'Application.Models.LoginRequest'.
+2025-04-30 12:47:28.400 -03:00 [DBG] Done attempting to bind parameter 'request' of type 'Application.Models.LoginRequest'.
+2025-04-30 12:47:28.402 -03:00 [DBG] Attempting to validate the bound parameter 'request' of type 'Application.Models.LoginRequest' ...
+2025-04-30 12:47:28.412 -03:00 [DBG] Done attempting to validate the bound parameter 'request' of type 'Application.Models.LoginRequest'.
+2025-04-30 12:47:28.419 -03:00 [INF] Executing StatusCodeResult, setting HTTP status code 401
+2025-04-30 12:47:28.424 -03:00 [INF] Executed action PedidosAPI.Controllers.AuthController.Login (PedidosAPI) in 64.1798ms
+2025-04-30 12:47:28.426 -03:00 [INF] Executed endpoint 'PedidosAPI.Controllers.AuthController.Login (PedidosAPI)'
+2025-04-30 12:47:28.428 -03:00 [DBG] Connection id "0HNC7VP57OOAU" completed keep alive response.
+2025-04-30 12:47:28.430 -03:00 [INF] Request finished HTTP/1.1 POST http://localhost:5231/login - 401 0 null 209.7578ms
+2025-04-30 12:47:32.037 -03:00 [INF] Request starting HTTP/1.1 POST http://localhost:5231/login - application/json 38
+2025-04-30 12:47:32.042 -03:00 [DBG] 1 candidate(s) found for the request path '/login'
+2025-04-30 12:47:32.044 -03:00 [DBG] Endpoint 'PedidosAPI.Controllers.AuthController.Login (PedidosAPI)' with route pattern 'login' is valid for the request path '/login'
+2025-04-30 12:47:32.046 -03:00 [DBG] Request matched endpoint 'PedidosAPI.Controllers.AuthController.Login (PedidosAPI)'
+2025-04-30 12:47:32.047 -03:00 [DBG] Static files was skipped as the request already matched an endpoint.
+2025-04-30 12:47:32.049 -03:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2025-04-30 12:47:32.050 -03:00 [INF] Executing endpoint 'PedidosAPI.Controllers.AuthController.Login (PedidosAPI)'
+2025-04-30 12:47:32.053 -03:00 [INF] Route matched with {action = "Login", controller = "Auth"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Login(Application.Models.LoginRequest) on controller PedidosAPI.Controllers.AuthController (PedidosAPI).
+2025-04-30 12:47:32.055 -03:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2025-04-30 12:47:32.056 -03:00 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2025-04-30 12:47:32.058 -03:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.Filters.ControllerActionFilter (Order: -2147483648)","Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)"]
+2025-04-30 12:47:32.059 -03:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2025-04-30 12:47:32.060 -03:00 [DBG] Execution plan of result filters (in the following order): ["None"]
+2025-04-30 12:47:32.061 -03:00 [DBG] Executing controller factory for controller PedidosAPI.Controllers.AuthController (PedidosAPI)
+2025-04-30 12:47:32.062 -03:00 [DBG] Executed controller factory for controller PedidosAPI.Controllers.AuthController (PedidosAPI)
+2025-04-30 12:47:32.063 -03:00 [DBG] Attempting to bind parameter 'request' of type 'Application.Models.LoginRequest' ...
+2025-04-30 12:47:32.065 -03:00 [DBG] Attempting to bind parameter 'request' of type 'Application.Models.LoginRequest' using the name '' in request data ...
+2025-04-30 12:47:32.066 -03:00 [DBG] Selected input formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonInputFormatter' for content type 'application/json'.
+2025-04-30 12:47:32.068 -03:00 [DBG] Connection id "0HNC7VP57OOAU", Request id "0HNC7VP57OOAU:00000005": started reading request body.
+2025-04-30 12:47:32.070 -03:00 [DBG] Connection id "0HNC7VP57OOAU", Request id "0HNC7VP57OOAU:00000005": done reading request body.
+2025-04-30 12:47:32.072 -03:00 [DBG] JSON input formatter succeeded, deserializing to type 'Application.Models.LoginRequest'
+2025-04-30 12:47:32.073 -03:00 [DBG] Done attempting to bind parameter 'request' of type 'Application.Models.LoginRequest'.
+2025-04-30 12:47:32.074 -03:00 [DBG] Done attempting to bind parameter 'request' of type 'Application.Models.LoginRequest'.
+2025-04-30 12:47:32.075 -03:00 [DBG] Attempting to validate the bound parameter 'request' of type 'Application.Models.LoginRequest' ...
+2025-04-30 12:47:32.076 -03:00 [DBG] Done attempting to validate the bound parameter 'request' of type 'Application.Models.LoginRequest'.
+2025-04-30 12:47:32.077 -03:00 [INF] Executing StatusCodeResult, setting HTTP status code 401
+2025-04-30 12:47:32.078 -03:00 [INF] Executed action PedidosAPI.Controllers.AuthController.Login (PedidosAPI) in 17.0584ms
+2025-04-30 12:47:32.079 -03:00 [INF] Executed endpoint 'PedidosAPI.Controllers.AuthController.Login (PedidosAPI)'
+2025-04-30 12:47:32.080 -03:00 [DBG] Connection id "0HNC7VP57OOAU" completed keep alive response.
+2025-04-30 12:47:32.081 -03:00 [INF] Request finished HTTP/1.1 POST http://localhost:5231/login - 401 0 null 44.6318ms
+2025-04-30 12:47:37.157 -03:00 [INF] Request starting HTTP/1.1 POST http://localhost:5231/login - application/json 38
+2025-04-30 12:47:37.161 -03:00 [DBG] 1 candidate(s) found for the request path '/login'
+2025-04-30 12:47:37.162 -03:00 [DBG] Endpoint 'PedidosAPI.Controllers.AuthController.Login (PedidosAPI)' with route pattern 'login' is valid for the request path '/login'
+2025-04-30 12:47:37.165 -03:00 [DBG] Request matched endpoint 'PedidosAPI.Controllers.AuthController.Login (PedidosAPI)'
+2025-04-30 12:47:37.166 -03:00 [DBG] Static files was skipped as the request already matched an endpoint.
+2025-04-30 12:47:37.172 -03:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2025-04-30 12:47:37.174 -03:00 [INF] Executing endpoint 'PedidosAPI.Controllers.AuthController.Login (PedidosAPI)'
+2025-04-30 12:47:37.176 -03:00 [INF] Route matched with {action = "Login", controller = "Auth"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Login(Application.Models.LoginRequest) on controller PedidosAPI.Controllers.AuthController (PedidosAPI).
+2025-04-30 12:47:37.178 -03:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2025-04-30 12:47:37.180 -03:00 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2025-04-30 12:47:37.181 -03:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.Filters.ControllerActionFilter (Order: -2147483648)","Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)"]
+2025-04-30 12:47:37.183 -03:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2025-04-30 12:47:37.184 -03:00 [DBG] Execution plan of result filters (in the following order): ["None"]
+2025-04-30 12:47:37.185 -03:00 [DBG] Executing controller factory for controller PedidosAPI.Controllers.AuthController (PedidosAPI)
+2025-04-30 12:47:37.187 -03:00 [DBG] Executed controller factory for controller PedidosAPI.Controllers.AuthController (PedidosAPI)
+2025-04-30 12:47:37.188 -03:00 [DBG] Attempting to bind parameter 'request' of type 'Application.Models.LoginRequest' ...
+2025-04-30 12:47:37.189 -03:00 [DBG] Attempting to bind parameter 'request' of type 'Application.Models.LoginRequest' using the name '' in request data ...
+2025-04-30 12:47:37.191 -03:00 [DBG] Selected input formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonInputFormatter' for content type 'application/json'.
+2025-04-30 12:47:37.192 -03:00 [DBG] Connection id "0HNC7VP57OOAU", Request id "0HNC7VP57OOAU:00000006": started reading request body.
+2025-04-30 12:47:37.193 -03:00 [DBG] Connection id "0HNC7VP57OOAU", Request id "0HNC7VP57OOAU:00000006": done reading request body.
+2025-04-30 12:47:37.194 -03:00 [DBG] JSON input formatter succeeded, deserializing to type 'Application.Models.LoginRequest'
+2025-04-30 12:47:37.195 -03:00 [DBG] Done attempting to bind parameter 'request' of type 'Application.Models.LoginRequest'.
+2025-04-30 12:47:37.196 -03:00 [DBG] Done attempting to bind parameter 'request' of type 'Application.Models.LoginRequest'.
+2025-04-30 12:47:37.197 -03:00 [DBG] Attempting to validate the bound parameter 'request' of type 'Application.Models.LoginRequest' ...
+2025-04-30 12:47:37.198 -03:00 [DBG] Done attempting to validate the bound parameter 'request' of type 'Application.Models.LoginRequest'.
+2025-04-30 12:47:37.200 -03:00 [INF] Executing StatusCodeResult, setting HTTP status code 401
+2025-04-30 12:47:37.200 -03:00 [INF] Executed action PedidosAPI.Controllers.AuthController.Login (PedidosAPI) in 15.2086ms
+2025-04-30 12:47:37.202 -03:00 [INF] Executed endpoint 'PedidosAPI.Controllers.AuthController.Login (PedidosAPI)'
+2025-04-30 12:47:37.203 -03:00 [DBG] Connection id "0HNC7VP57OOAU" completed keep alive response.
+2025-04-30 12:47:37.204 -03:00 [INF] Request finished HTTP/1.1 POST http://localhost:5231/login - 401 0 null 46.897ms
+2025-04-30 12:47:37.314 -03:00 [INF] Request starting HTTP/1.1 POST http://localhost:5231/login - application/json 38
+2025-04-30 12:47:37.317 -03:00 [DBG] 1 candidate(s) found for the request path '/login'
+2025-04-30 12:47:37.319 -03:00 [DBG] Endpoint 'PedidosAPI.Controllers.AuthController.Login (PedidosAPI)' with route pattern 'login' is valid for the request path '/login'
+2025-04-30 12:47:37.321 -03:00 [DBG] Request matched endpoint 'PedidosAPI.Controllers.AuthController.Login (PedidosAPI)'
+2025-04-30 12:47:37.322 -03:00 [DBG] Static files was skipped as the request already matched an endpoint.
+2025-04-30 12:47:37.323 -03:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2025-04-30 12:47:37.325 -03:00 [INF] Executing endpoint 'PedidosAPI.Controllers.AuthController.Login (PedidosAPI)'
+2025-04-30 12:47:37.326 -03:00 [INF] Route matched with {action = "Login", controller = "Auth"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Login(Application.Models.LoginRequest) on controller PedidosAPI.Controllers.AuthController (PedidosAPI).
+2025-04-30 12:47:37.328 -03:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2025-04-30 12:47:37.330 -03:00 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2025-04-30 12:47:37.331 -03:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.Filters.ControllerActionFilter (Order: -2147483648)","Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)"]
+2025-04-30 12:47:37.333 -03:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2025-04-30 12:47:37.336 -03:00 [DBG] Execution plan of result filters (in the following order): ["None"]
+2025-04-30 12:47:37.337 -03:00 [DBG] Executing controller factory for controller PedidosAPI.Controllers.AuthController (PedidosAPI)
+2025-04-30 12:47:37.339 -03:00 [DBG] Executed controller factory for controller PedidosAPI.Controllers.AuthController (PedidosAPI)
+2025-04-30 12:47:37.341 -03:00 [DBG] Attempting to bind parameter 'request' of type 'Application.Models.LoginRequest' ...
+2025-04-30 12:47:37.342 -03:00 [DBG] Attempting to bind parameter 'request' of type 'Application.Models.LoginRequest' using the name '' in request data ...
+2025-04-30 12:47:37.344 -03:00 [DBG] Selected input formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonInputFormatter' for content type 'application/json'.
+2025-04-30 12:47:37.345 -03:00 [DBG] Connection id "0HNC7VP57OOAU", Request id "0HNC7VP57OOAU:00000007": started reading request body.
+2025-04-30 12:47:37.346 -03:00 [DBG] Connection id "0HNC7VP57OOAU", Request id "0HNC7VP57OOAU:00000007": done reading request body.
+2025-04-30 12:47:37.347 -03:00 [DBG] JSON input formatter succeeded, deserializing to type 'Application.Models.LoginRequest'
+2025-04-30 12:47:37.349 -03:00 [DBG] Done attempting to bind parameter 'request' of type 'Application.Models.LoginRequest'.
+2025-04-30 12:47:37.350 -03:00 [DBG] Done attempting to bind parameter 'request' of type 'Application.Models.LoginRequest'.
+2025-04-30 12:47:37.352 -03:00 [DBG] Attempting to validate the bound parameter 'request' of type 'Application.Models.LoginRequest' ...
+2025-04-30 12:47:37.353 -03:00 [DBG] Done attempting to validate the bound parameter 'request' of type 'Application.Models.LoginRequest'.
+2025-04-30 12:47:37.355 -03:00 [INF] Executing StatusCodeResult, setting HTTP status code 401
+2025-04-30 12:47:37.356 -03:00 [INF] Executed action PedidosAPI.Controllers.AuthController.Login (PedidosAPI) in 18.5784ms
+2025-04-30 12:47:37.357 -03:00 [INF] Executed endpoint 'PedidosAPI.Controllers.AuthController.Login (PedidosAPI)'
+2025-04-30 12:47:37.358 -03:00 [DBG] Connection id "0HNC7VP57OOAU" completed keep alive response.
+2025-04-30 12:47:37.359 -03:00 [INF] Request finished HTTP/1.1 POST http://localhost:5231/login - 401 0 null 46.0036ms
+2025-04-30 12:47:38.878 -03:00 [INF] Request starting HTTP/1.1 POST http://localhost:5231/login - application/json 0
+2025-04-30 12:47:38.890 -03:00 [DBG] 1 candidate(s) found for the request path '/login'
+2025-04-30 12:47:38.892 -03:00 [DBG] Endpoint 'PedidosAPI.Controllers.AuthController.Login (PedidosAPI)' with route pattern 'login' is valid for the request path '/login'
+2025-04-30 12:47:38.897 -03:00 [DBG] Request matched endpoint 'PedidosAPI.Controllers.AuthController.Login (PedidosAPI)'
+2025-04-30 12:47:38.899 -03:00 [DBG] Static files was skipped as the request already matched an endpoint.
+2025-04-30 12:47:38.901 -03:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2025-04-30 12:47:38.904 -03:00 [INF] Executing endpoint 'PedidosAPI.Controllers.AuthController.Login (PedidosAPI)'
+2025-04-30 12:47:38.906 -03:00 [INF] Route matched with {action = "Login", controller = "Auth"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Login(Application.Models.LoginRequest) on controller PedidosAPI.Controllers.AuthController (PedidosAPI).
+2025-04-30 12:47:38.909 -03:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2025-04-30 12:47:38.911 -03:00 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2025-04-30 12:47:38.914 -03:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.Filters.ControllerActionFilter (Order: -2147483648)","Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)"]
+2025-04-30 12:47:38.916 -03:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2025-04-30 12:47:38.918 -03:00 [DBG] Execution plan of result filters (in the following order): ["None"]
+2025-04-30 12:47:38.919 -03:00 [DBG] Executing controller factory for controller PedidosAPI.Controllers.AuthController (PedidosAPI)
+2025-04-30 12:47:38.921 -03:00 [DBG] Executed controller factory for controller PedidosAPI.Controllers.AuthController (PedidosAPI)
+2025-04-30 12:47:38.923 -03:00 [DBG] Attempting to bind parameter 'request' of type 'Application.Models.LoginRequest' ...
+2025-04-30 12:47:38.924 -03:00 [DBG] Attempting to bind parameter 'request' of type 'Application.Models.LoginRequest' using the name '' in request data ...
+2025-04-30 12:47:38.926 -03:00 [DBG] Selected input formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonInputFormatter' for content type 'application/json'.
+2025-04-30 12:47:38.939 -03:00 [DBG] Done attempting to bind parameter 'request' of type 'Application.Models.LoginRequest'.
+2025-04-30 12:47:38.941 -03:00 [DBG] Done attempting to bind parameter 'request' of type 'Application.Models.LoginRequest'.
+2025-04-30 12:47:38.942 -03:00 [DBG] Attempting to validate the bound parameter 'request' of type 'Application.Models.LoginRequest' ...
+2025-04-30 12:47:38.944 -03:00 [DBG] Done attempting to validate the bound parameter 'request' of type 'Application.Models.LoginRequest'.
+2025-04-30 12:49:16.006 -03:00 [DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.TryParseModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"]
+2025-04-30 12:49:16.131 -03:00 [DBG] Hosting starting
+2025-04-30 12:49:16.166 -03:00 [INF] User profile is available. Using 'C:\Users\engue\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-04-30 12:49:16.179 -03:00 [DBG] Reading data from file 'C:\Users\engue\AppData\Local\ASP.NET\DataProtection-Keys\key-84d0fdb6-1092-4841-ae42-a6e0af9e2a2c.xml'.
+2025-04-30 12:49:16.187 -03:00 [DBG] Reading data from file 'C:\Users\engue\AppData\Local\ASP.NET\DataProtection-Keys\key-e060b36c-62ad-4e46-ae6d-995d0b4708ad.xml'.
+2025-04-30 12:49:16.189 -03:00 [DBG] Reading data from file 'C:\Users\engue\AppData\Local\ASP.NET\DataProtection-Keys\key-f5988c01-d3af-4e7c-b44a-246fd5e27ad1.xml'.
+2025-04-30 12:49:16.193 -03:00 [DBG] Found key {84d0fdb6-1092-4841-ae42-a6e0af9e2a2c}.
+2025-04-30 12:49:16.197 -03:00 [DBG] Found key {e060b36c-62ad-4e46-ae6d-995d0b4708ad}.
+2025-04-30 12:49:16.198 -03:00 [DBG] Found key {f5988c01-d3af-4e7c-b44a-246fd5e27ad1}.
+2025-04-30 12:49:16.205 -03:00 [DBG] Considering key {84d0fdb6-1092-4841-ae42-a6e0af9e2a2c} with expiration date 2025-07-29 06:06:56Z as default key.
+2025-04-30 12:49:16.209 -03:00 [DBG] Forwarded activator type request from Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Version=8.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2025-04-30 12:49:16.211 -03:00 [DBG] Decrypting secret element using Windows DPAPI.
+2025-04-30 12:49:16.213 -03:00 [DBG] Forwarded activator type request from Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Version=8.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2025-04-30 12:49:16.219 -03:00 [DBG] Opening CNG algorithm 'AES' from provider 'null' with chaining mode CBC.
+2025-04-30 12:49:16.220 -03:00 [DBG] Opening CNG algorithm 'SHA256' from provider 'null' with HMAC.
+2025-04-30 12:49:16.222 -03:00 [DBG] Using key {84d0fdb6-1092-4841-ae42-a6e0af9e2a2c} as the default key.
+2025-04-30 12:49:16.224 -03:00 [DBG] Key ring with default key {84d0fdb6-1092-4841-ae42-a6e0af9e2a2c} was loaded during application startup.
+2025-04-30 12:49:16.376 -03:00 [INF] Now listening on: http://localhost:5231
+2025-04-30 12:49:16.378 -03:00 [DBG] Loaded hosting startup assembly PedidosAPI
+2025-04-30 12:49:16.378 -03:00 [DBG] Loaded hosting startup assembly Microsoft.WebTools.ApiEndpointDiscovery
+2025-04-30 12:49:16.379 -03:00 [DBG] Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh
+2025-04-30 12:49:16.380 -03:00 [DBG] Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net
+2025-04-30 12:49:16.473 -03:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-04-30 12:49:16.475 -03:00 [INF] Hosting environment: Development
+2025-04-30 12:49:16.478 -03:00 [INF] Content root path: C:\Users\engue\source\git\PedidosAPI\PedidosAPI
+2025-04-30 12:49:16.479 -03:00 [DBG] Hosting started
+2025-04-30 12:49:16.841 -03:00 [DBG] Connection id "0HNC7VQ84BL37" accepted.
+2025-04-30 12:49:16.845 -03:00 [DBG] Connection id "0HNC7VQ84BL37" started.
+2025-04-30 12:49:16.850 -03:00 [DBG] Connection id "0HNC7VQ84BL38" accepted.
+2025-04-30 12:49:16.852 -03:00 [DBG] Connection id "0HNC7VQ84BL38" started.
+2025-04-30 12:49:16.870 -03:00 [DBG] Connection id "0HNC7VQ84BL37" received FIN.
+2025-04-30 12:49:16.870 -03:00 [DBG] Connection id "0HNC7VQ84BL38" received FIN.
+2025-04-30 12:49:16.880 -03:00 [DBG] Connection id "0HNC7VQ84BL38" sending FIN because: "The Socket transport's send loop completed gracefully."
+2025-04-30 12:49:16.880 -03:00 [DBG] Connection id "0HNC7VQ84BL37" sending FIN because: "The Socket transport's send loop completed gracefully."
+2025-04-30 12:49:16.885 -03:00 [DBG] Connection id "0HNC7VQ84BL37" disconnecting.
+2025-04-30 12:49:16.885 -03:00 [DBG] Connection id "0HNC7VQ84BL38" disconnecting.
+2025-04-30 12:49:16.894 -03:00 [DBG] Connection id "0HNC7VQ84BL38" stopped.
+2025-04-30 12:49:16.894 -03:00 [DBG] Connection id "0HNC7VQ84BL37" stopped.
+2025-04-30 12:49:17.231 -03:00 [DBG] Connection id "0HNC7VQ84BL39" accepted.
+2025-04-30 12:49:17.323 -03:00 [DBG] Connection id "0HNC7VQ84BL39" started.
+2025-04-30 12:49:17.327 -03:00 [DBG] Connection id "0HNC7VQ84BL3A" accepted.
+2025-04-30 12:49:17.342 -03:00 [DBG] Connection id "0HNC7VQ84BL3A" started.
+2025-04-30 12:49:17.428 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5231/swagger/index.html - null null
+2025-04-30 12:49:17.608 -03:00 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2025-04-30 12:49:17.631 -03:00 [DBG] No candidates found for the request path '/swagger/index.html'
+2025-04-30 12:49:17.633 -03:00 [DBG] Request did not match any endpoints
+2025-04-30 12:49:17.693 -03:00 [DBG] Response markup is scheduled to include Browser Link script injection.
+2025-04-30 12:49:17.696 -03:00 [DBG] Response markup is scheduled to include browser refresh script injection.
+2025-04-30 12:49:17.719 -03:00 [DBG] Response markup was updated to include Browser Link script injection.
+2025-04-30 12:49:17.726 -03:00 [DBG] Response markup was updated to include browser refresh script injection.
+2025-04-30 12:49:17.728 -03:00 [DBG] Connection id "0HNC7VQ84BL3A" completed keep alive response.
+2025-04-30 12:49:17.733 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5231/swagger/index.html - 200 null text/html;charset=utf-8 325.6004ms
+2025-04-30 12:49:17.759 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5231/_framework/aspnetcore-browser-refresh.js - null null
+2025-04-30 12:49:17.765 -03:00 [DBG] Connection id "0HNC7VQ84BL3A" completed keep alive response.
+2025-04-30 12:49:17.766 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5231/_framework/aspnetcore-browser-refresh.js - 200 13772 application/javascript; charset=utf-8 7.4996ms
+2025-04-30 12:49:17.773 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5231/_vs/browserLink - null null
+2025-04-30 12:49:17.814 -03:00 [DBG] Connection id "0HNC7VQ84BL3A" completed keep alive response.
+2025-04-30 12:49:17.816 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5231/_vs/browserLink - 200 null text/javascript; charset=UTF-8 43.2021ms
+2025-04-30 12:49:17.900 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5231/swagger/v1/swagger.json - null null
+2025-04-30 12:49:17.909 -03:00 [DBG] No candidates found for the request path '/swagger/v1/swagger.json'
+2025-04-30 12:49:17.911 -03:00 [DBG] Request did not match any endpoints
+2025-04-30 12:49:17.973 -03:00 [DBG] Connection id "0HNC7VQ84BL3A" completed keep alive response.
+2025-04-30 12:49:17.980 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5231/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 80.2707ms
+2025-04-30 12:49:24.656 -03:00 [INF] Request starting HTTP/1.1 POST http://localhost:5231/login - application/json 38
+2025-04-30 12:49:24.663 -03:00 [DBG] 1 candidate(s) found for the request path '/login'
+2025-04-30 12:49:24.668 -03:00 [DBG] Endpoint 'PedidosAPI.Controllers.AuthController.Login (PedidosAPI)' with route pattern 'login' is valid for the request path '/login'
+2025-04-30 12:49:24.672 -03:00 [DBG] Request matched endpoint 'PedidosAPI.Controllers.AuthController.Login (PedidosAPI)'
+2025-04-30 12:49:24.675 -03:00 [DBG] Static files was skipped as the request already matched an endpoint.
+2025-04-30 12:49:24.751 -03:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2025-04-30 12:49:24.756 -03:00 [INF] Executing endpoint 'PedidosAPI.Controllers.AuthController.Login (PedidosAPI)'
+2025-04-30 12:49:24.782 -03:00 [INF] Route matched with {action = "Login", controller = "Auth"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Login(Application.Models.LoginRequest) on controller PedidosAPI.Controllers.AuthController (PedidosAPI).
+2025-04-30 12:49:24.787 -03:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2025-04-30 12:49:24.790 -03:00 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2025-04-30 12:49:24.792 -03:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.Filters.ControllerActionFilter (Order: -2147483648)","Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)"]
+2025-04-30 12:49:24.795 -03:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2025-04-30 12:49:24.797 -03:00 [DBG] Execution plan of result filters (in the following order): ["None"]
+2025-04-30 12:49:24.801 -03:00 [DBG] Executing controller factory for controller PedidosAPI.Controllers.AuthController (PedidosAPI)
+2025-04-30 12:49:24.804 -03:00 [DBG] Executed controller factory for controller PedidosAPI.Controllers.AuthController (PedidosAPI)
+2025-04-30 12:49:24.815 -03:00 [DBG] Attempting to bind parameter 'request' of type 'Application.Models.LoginRequest' ...
+2025-04-30 12:49:24.819 -03:00 [DBG] Attempting to bind parameter 'request' of type 'Application.Models.LoginRequest' using the name '' in request data ...
+2025-04-30 12:49:24.822 -03:00 [DBG] Selected input formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonInputFormatter' for content type 'application/json'.
+2025-04-30 12:49:24.831 -03:00 [DBG] Connection id "0HNC7VQ84BL3A", Request id "0HNC7VQ84BL3A:00000005": started reading request body.
+2025-04-30 12:49:24.833 -03:00 [DBG] Connection id "0HNC7VQ84BL3A", Request id "0HNC7VQ84BL3A:00000005": done reading request body.
+2025-04-30 12:49:24.849 -03:00 [DBG] JSON input formatter succeeded, deserializing to type 'Application.Models.LoginRequest'
+2025-04-30 12:49:24.851 -03:00 [DBG] Done attempting to bind parameter 'request' of type 'Application.Models.LoginRequest'.
+2025-04-30 12:49:24.853 -03:00 [DBG] Done attempting to bind parameter 'request' of type 'Application.Models.LoginRequest'.
+2025-04-30 12:49:24.854 -03:00 [DBG] Attempting to validate the bound parameter 'request' of type 'Application.Models.LoginRequest' ...
+2025-04-30 12:49:24.861 -03:00 [DBG] Done attempting to validate the bound parameter 'request' of type 'Application.Models.LoginRequest'.
+2025-04-30 12:49:24.867 -03:00 [INF] Executing StatusCodeResult, setting HTTP status code 401
+2025-04-30 12:49:24.871 -03:00 [INF] Executed action PedidosAPI.Controllers.AuthController.Login (PedidosAPI) in 69.3246ms
+2025-04-30 12:49:24.873 -03:00 [INF] Executed endpoint 'PedidosAPI.Controllers.AuthController.Login (PedidosAPI)'
+2025-04-30 12:49:24.874 -03:00 [DBG] Connection id "0HNC7VQ84BL3A" completed keep alive response.
+2025-04-30 12:49:24.875 -03:00 [INF] Request finished HTTP/1.1 POST http://localhost:5231/login - 401 0 null 219.8043ms
+2025-04-30 12:50:13.501 -03:00 [DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.TryParseModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"]
+2025-04-30 12:50:13.643 -03:00 [DBG] Hosting starting
+2025-04-30 12:50:13.677 -03:00 [INF] User profile is available. Using 'C:\Users\engue\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-04-30 12:50:13.691 -03:00 [DBG] Reading data from file 'C:\Users\engue\AppData\Local\ASP.NET\DataProtection-Keys\key-84d0fdb6-1092-4841-ae42-a6e0af9e2a2c.xml'.
+2025-04-30 12:50:13.697 -03:00 [DBG] Reading data from file 'C:\Users\engue\AppData\Local\ASP.NET\DataProtection-Keys\key-e060b36c-62ad-4e46-ae6d-995d0b4708ad.xml'.
+2025-04-30 12:50:13.699 -03:00 [DBG] Reading data from file 'C:\Users\engue\AppData\Local\ASP.NET\DataProtection-Keys\key-f5988c01-d3af-4e7c-b44a-246fd5e27ad1.xml'.
+2025-04-30 12:50:13.703 -03:00 [DBG] Found key {84d0fdb6-1092-4841-ae42-a6e0af9e2a2c}.
+2025-04-30 12:50:13.709 -03:00 [DBG] Found key {e060b36c-62ad-4e46-ae6d-995d0b4708ad}.
+2025-04-30 12:50:13.710 -03:00 [DBG] Found key {f5988c01-d3af-4e7c-b44a-246fd5e27ad1}.
+2025-04-30 12:50:13.715 -03:00 [DBG] Considering key {84d0fdb6-1092-4841-ae42-a6e0af9e2a2c} with expiration date 2025-07-29 06:06:56Z as default key.
+2025-04-30 12:50:13.719 -03:00 [DBG] Forwarded activator type request from Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Version=8.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2025-04-30 12:50:13.724 -03:00 [DBG] Decrypting secret element using Windows DPAPI.
+2025-04-30 12:50:13.727 -03:00 [DBG] Forwarded activator type request from Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Version=8.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2025-04-30 12:50:13.732 -03:00 [DBG] Opening CNG algorithm 'AES' from provider 'null' with chaining mode CBC.
+2025-04-30 12:50:13.734 -03:00 [DBG] Opening CNG algorithm 'SHA256' from provider 'null' with HMAC.
+2025-04-30 12:50:13.737 -03:00 [DBG] Using key {84d0fdb6-1092-4841-ae42-a6e0af9e2a2c} as the default key.
+2025-04-30 12:50:13.739 -03:00 [DBG] Key ring with default key {84d0fdb6-1092-4841-ae42-a6e0af9e2a2c} was loaded during application startup.
+2025-04-30 12:50:13.881 -03:00 [INF] Now listening on: http://localhost:5231
+2025-04-30 12:50:13.883 -03:00 [DBG] Loaded hosting startup assembly PedidosAPI
+2025-04-30 12:50:13.884 -03:00 [DBG] Loaded hosting startup assembly Microsoft.WebTools.ApiEndpointDiscovery
+2025-04-30 12:50:13.885 -03:00 [DBG] Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh
+2025-04-30 12:50:13.886 -03:00 [DBG] Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net
+2025-04-30 12:50:13.986 -03:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-04-30 12:50:13.989 -03:00 [INF] Hosting environment: Development
+2025-04-30 12:50:13.991 -03:00 [INF] Content root path: C:\Users\engue\source\git\PedidosAPI\PedidosAPI
+2025-04-30 12:50:13.992 -03:00 [DBG] Hosting started
+2025-04-30 12:50:14.338 -03:00 [DBG] Connection id "0HNC7VQP8M560" accepted.
+2025-04-30 12:50:14.341 -03:00 [DBG] Connection id "0HNC7VQP8M560" started.
+2025-04-30 12:50:14.345 -03:00 [DBG] Connection id "0HNC7VQP8M560" received FIN.
+2025-04-30 12:50:14.345 -03:00 [DBG] Connection id "0HNC7VQP8M561" received FIN.
+2025-04-30 12:50:14.348 -03:00 [DBG] Connection id "0HNC7VQP8M561" accepted.
+2025-04-30 12:50:14.349 -03:00 [DBG] Connection id "0HNC7VQP8M561" started.
+2025-04-30 12:50:14.350 -03:00 [DBG] Connection id "0HNC7VQP8M560" sending FIN because: "The Socket transport's send loop completed gracefully."
+2025-04-30 12:50:14.350 -03:00 [DBG] Connection id "0HNC7VQP8M561" sending FIN because: "The Socket transport's send loop completed gracefully."
+2025-04-30 12:50:14.354 -03:00 [DBG] Connection id "0HNC7VQP8M560" disconnecting.
+2025-04-30 12:50:14.354 -03:00 [DBG] Connection id "0HNC7VQP8M561" disconnecting.
+2025-04-30 12:50:14.360 -03:00 [DBG] Connection id "0HNC7VQP8M560" stopped.
+2025-04-30 12:50:14.360 -03:00 [DBG] Connection id "0HNC7VQP8M561" stopped.
+2025-04-30 12:50:14.679 -03:00 [DBG] Connection id "0HNC7VQP8M562" accepted.
+2025-04-30 12:50:14.765 -03:00 [DBG] Connection id "0HNC7VQP8M562" started.
+2025-04-30 12:50:14.765 -03:00 [DBG] Connection id "0HNC7VQP8M563" accepted.
+2025-04-30 12:50:14.768 -03:00 [DBG] Connection id "0HNC7VQP8M563" started.
+2025-04-30 12:50:14.831 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5231/swagger/index.html - null null
+2025-04-30 12:50:14.951 -03:00 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2025-04-30 12:50:14.983 -03:00 [DBG] No candidates found for the request path '/swagger/index.html'
+2025-04-30 12:50:14.984 -03:00 [DBG] Request did not match any endpoints
+2025-04-30 12:50:15.046 -03:00 [DBG] Response markup is scheduled to include Browser Link script injection.
+2025-04-30 12:50:15.049 -03:00 [DBG] Response markup is scheduled to include browser refresh script injection.
+2025-04-30 12:50:15.075 -03:00 [DBG] Response markup was updated to include Browser Link script injection.
+2025-04-30 12:50:15.077 -03:00 [DBG] Response markup was updated to include browser refresh script injection.
+2025-04-30 12:50:15.090 -03:00 [DBG] Connection id "0HNC7VQP8M562" completed keep alive response.
+2025-04-30 12:50:15.099 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5231/swagger/index.html - 200 null text/html;charset=utf-8 287.7375ms
+2025-04-30 12:50:15.131 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5231/_vs/browserLink - null null
+2025-04-30 12:50:15.131 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5231/_framework/aspnetcore-browser-refresh.js - null null
+2025-04-30 12:50:15.155 -03:00 [DBG] Connection id "0HNC7VQP8M563" completed keep alive response.
+2025-04-30 12:50:15.158 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5231/_framework/aspnetcore-browser-refresh.js - 200 13772 application/javascript; charset=utf-8 26.1937ms
+2025-04-30 12:50:15.192 -03:00 [DBG] Connection id "0HNC7VQP8M562" completed keep alive response.
+2025-04-30 12:50:15.196 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5231/_vs/browserLink - 200 null text/javascript; charset=UTF-8 65.0762ms
+2025-04-30 12:50:15.285 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5231/swagger/v1/swagger.json - null null
+2025-04-30 12:50:15.305 -03:00 [DBG] No candidates found for the request path '/swagger/v1/swagger.json'
+2025-04-30 12:50:15.307 -03:00 [DBG] Request did not match any endpoints
+2025-04-30 12:50:15.358 -03:00 [DBG] Connection id "0HNC7VQP8M562" completed keep alive response.
+2025-04-30 12:50:15.361 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5231/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 75.3965ms
+2025-04-30 12:50:25.866 -03:00 [INF] Request starting HTTP/1.1 POST http://localhost:5231/login - application/json 38
+2025-04-30 12:50:25.875 -03:00 [DBG] 1 candidate(s) found for the request path '/login'
+2025-04-30 12:50:25.881 -03:00 [DBG] Endpoint 'PedidosAPI.Controllers.AuthController.Login (PedidosAPI)' with route pattern 'login' is valid for the request path '/login'
+2025-04-30 12:50:25.883 -03:00 [DBG] Request matched endpoint 'PedidosAPI.Controllers.AuthController.Login (PedidosAPI)'
+2025-04-30 12:50:25.888 -03:00 [DBG] Static files was skipped as the request already matched an endpoint.
+2025-04-30 12:50:25.965 -03:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2025-04-30 12:50:25.971 -03:00 [INF] Executing endpoint 'PedidosAPI.Controllers.AuthController.Login (PedidosAPI)'
+2025-04-30 12:50:25.996 -03:00 [INF] Route matched with {action = "Login", controller = "Auth"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Login(Application.Models.LoginRequest) on controller PedidosAPI.Controllers.AuthController (PedidosAPI).
+2025-04-30 12:50:26.001 -03:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2025-04-30 12:50:26.004 -03:00 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2025-04-30 12:50:26.006 -03:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.Filters.ControllerActionFilter (Order: -2147483648)","Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)"]
+2025-04-30 12:50:26.008 -03:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2025-04-30 12:50:26.009 -03:00 [DBG] Execution plan of result filters (in the following order): ["None"]
+2025-04-30 12:50:26.011 -03:00 [DBG] Executing controller factory for controller PedidosAPI.Controllers.AuthController (PedidosAPI)
+2025-04-30 12:50:26.013 -03:00 [DBG] Executed controller factory for controller PedidosAPI.Controllers.AuthController (PedidosAPI)
+2025-04-30 12:50:26.019 -03:00 [DBG] Attempting to bind parameter 'request' of type 'Application.Models.LoginRequest' ...
+2025-04-30 12:50:26.023 -03:00 [DBG] Attempting to bind parameter 'request' of type 'Application.Models.LoginRequest' using the name '' in request data ...
+2025-04-30 12:50:26.025 -03:00 [DBG] Selected input formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonInputFormatter' for content type 'application/json'.
+2025-04-30 12:50:26.031 -03:00 [DBG] Connection id "0HNC7VQP8M562", Request id "0HNC7VQP8M562:00000004": started reading request body.
+2025-04-30 12:50:26.033 -03:00 [DBG] Connection id "0HNC7VQP8M562", Request id "0HNC7VQP8M562:00000004": done reading request body.
+2025-04-30 12:50:26.045 -03:00 [DBG] JSON input formatter succeeded, deserializing to type 'Application.Models.LoginRequest'
+2025-04-30 12:50:26.047 -03:00 [DBG] Done attempting to bind parameter 'request' of type 'Application.Models.LoginRequest'.
+2025-04-30 12:50:26.048 -03:00 [DBG] Done attempting to bind parameter 'request' of type 'Application.Models.LoginRequest'.
+2025-04-30 12:50:26.049 -03:00 [DBG] Attempting to validate the bound parameter 'request' of type 'Application.Models.LoginRequest' ...
+2025-04-30 12:50:26.060 -03:00 [DBG] Done attempting to validate the bound parameter 'request' of type 'Application.Models.LoginRequest'.
+2025-04-30 12:50:26.065 -03:00 [INF] Executing StatusCodeResult, setting HTTP status code 401
+2025-04-30 12:50:26.071 -03:00 [INF] Executed action PedidosAPI.Controllers.AuthController.Login (PedidosAPI) in 56.847ms
+2025-04-30 12:50:26.072 -03:00 [INF] Executed endpoint 'PedidosAPI.Controllers.AuthController.Login (PedidosAPI)'
+2025-04-30 12:50:26.074 -03:00 [DBG] Connection id "0HNC7VQP8M562" completed keep alive response.
+2025-04-30 12:50:26.075 -03:00 [INF] Request finished HTTP/1.1 POST http://localhost:5231/login - 401 0 null 209.55ms
+2025-04-30 12:50:35.488 -03:00 [INF] Request starting HTTP/1.1 POST http://localhost:5231/login - application/json 0
+2025-04-30 12:50:35.492 -03:00 [DBG] 1 candidate(s) found for the request path '/login'
+2025-04-30 12:50:35.494 -03:00 [DBG] Endpoint 'PedidosAPI.Controllers.AuthController.Login (PedidosAPI)' with route pattern 'login' is valid for the request path '/login'
+2025-04-30 12:50:35.496 -03:00 [DBG] Request matched endpoint 'PedidosAPI.Controllers.AuthController.Login (PedidosAPI)'
+2025-04-30 12:50:35.497 -03:00 [DBG] Static files was skipped as the request already matched an endpoint.
+2025-04-30 12:50:35.499 -03:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2025-04-30 12:50:35.509 -03:00 [INF] Executing endpoint 'PedidosAPI.Controllers.AuthController.Login (PedidosAPI)'
+2025-04-30 12:50:35.510 -03:00 [INF] Route matched with {action = "Login", controller = "Auth"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Login(Application.Models.LoginRequest) on controller PedidosAPI.Controllers.AuthController (PedidosAPI).
+2025-04-30 12:50:35.512 -03:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2025-04-30 12:50:35.514 -03:00 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2025-04-30 12:50:35.516 -03:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.Filters.ControllerActionFilter (Order: -2147483648)","Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)"]
+2025-04-30 12:50:35.519 -03:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2025-04-30 12:50:35.522 -03:00 [DBG] Execution plan of result filters (in the following order): ["None"]
+2025-04-30 12:50:35.524 -03:00 [DBG] Executing controller factory for controller PedidosAPI.Controllers.AuthController (PedidosAPI)
+2025-04-30 12:50:35.525 -03:00 [DBG] Executed controller factory for controller PedidosAPI.Controllers.AuthController (PedidosAPI)
+2025-04-30 12:50:35.526 -03:00 [DBG] Attempting to bind parameter 'request' of type 'Application.Models.LoginRequest' ...
+2025-04-30 12:50:35.528 -03:00 [DBG] Attempting to bind parameter 'request' of type 'Application.Models.LoginRequest' using the name '' in request data ...
+2025-04-30 12:50:35.530 -03:00 [DBG] Selected input formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonInputFormatter' for content type 'application/json'.
+2025-04-30 12:50:35.533 -03:00 [DBG] Done attempting to bind parameter 'request' of type 'Application.Models.LoginRequest'.
+2025-04-30 12:50:35.534 -03:00 [DBG] Done attempting to bind parameter 'request' of type 'Application.Models.LoginRequest'.
+2025-04-30 12:50:35.535 -03:00 [DBG] Attempting to validate the bound parameter 'request' of type 'Application.Models.LoginRequest' ...
+2025-04-30 12:50:35.538 -03:00 [DBG] Done attempting to validate the bound parameter 'request' of type 'Application.Models.LoginRequest'.
+2025-04-30 12:51:40.420 -03:00 [DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.TryParseModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"]
+2025-04-30 12:51:40.572 -03:00 [DBG] Hosting starting
+2025-04-30 12:51:40.617 -03:00 [INF] User profile is available. Using 'C:\Users\engue\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-04-30 12:51:40.631 -03:00 [DBG] Reading data from file 'C:\Users\engue\AppData\Local\ASP.NET\DataProtection-Keys\key-84d0fdb6-1092-4841-ae42-a6e0af9e2a2c.xml'.
+2025-04-30 12:51:40.641 -03:00 [DBG] Reading data from file 'C:\Users\engue\AppData\Local\ASP.NET\DataProtection-Keys\key-e060b36c-62ad-4e46-ae6d-995d0b4708ad.xml'.
+2025-04-30 12:51:40.644 -03:00 [DBG] Reading data from file 'C:\Users\engue\AppData\Local\ASP.NET\DataProtection-Keys\key-f5988c01-d3af-4e7c-b44a-246fd5e27ad1.xml'.
+2025-04-30 12:51:40.650 -03:00 [DBG] Found key {84d0fdb6-1092-4841-ae42-a6e0af9e2a2c}.
+2025-04-30 12:51:40.657 -03:00 [DBG] Found key {e060b36c-62ad-4e46-ae6d-995d0b4708ad}.
+2025-04-30 12:51:40.659 -03:00 [DBG] Found key {f5988c01-d3af-4e7c-b44a-246fd5e27ad1}.
+2025-04-30 12:51:40.670 -03:00 [DBG] Considering key {84d0fdb6-1092-4841-ae42-a6e0af9e2a2c} with expiration date 2025-07-29 06:06:56Z as default key.
+2025-04-30 12:51:40.676 -03:00 [DBG] Forwarded activator type request from Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Version=8.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2025-04-30 12:51:40.680 -03:00 [DBG] Decrypting secret element using Windows DPAPI.
+2025-04-30 12:51:40.683 -03:00 [DBG] Forwarded activator type request from Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Version=8.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2025-04-30 12:51:40.692 -03:00 [DBG] Opening CNG algorithm 'AES' from provider 'null' with chaining mode CBC.
+2025-04-30 12:51:40.694 -03:00 [DBG] Opening CNG algorithm 'SHA256' from provider 'null' with HMAC.
+2025-04-30 12:51:40.696 -03:00 [DBG] Using key {84d0fdb6-1092-4841-ae42-a6e0af9e2a2c} as the default key.
+2025-04-30 12:51:40.697 -03:00 [DBG] Key ring with default key {84d0fdb6-1092-4841-ae42-a6e0af9e2a2c} was loaded during application startup.
+2025-04-30 12:51:40.859 -03:00 [INF] Now listening on: http://localhost:5231
+2025-04-30 12:51:40.860 -03:00 [DBG] Loaded hosting startup assembly PedidosAPI
+2025-04-30 12:51:40.860 -03:00 [DBG] Loaded hosting startup assembly Microsoft.WebTools.ApiEndpointDiscovery
+2025-04-30 12:51:40.861 -03:00 [DBG] Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh
+2025-04-30 12:51:40.862 -03:00 [DBG] Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net
+2025-04-30 12:51:40.943 -03:00 [DBG] Connection id "0HNC7VRJ2K02I" accepted.
+2025-04-30 12:51:40.945 -03:00 [DBG] Connection id "0HNC7VRJ2K02I" started.
+2025-04-30 12:51:40.961 -03:00 [DBG] Connection id "0HNC7VRJ2K02I" received FIN.
+2025-04-30 12:51:40.961 -03:00 [DBG] Connection id "0HNC7VRJ2K02J" received FIN.
+2025-04-30 12:51:40.970 -03:00 [DBG] Connection id "0HNC7VRJ2K02J" accepted.
+2025-04-30 12:51:40.970 -03:00 [DBG] Connection id "0HNC7VRJ2K02I" sending FIN because: "The Socket transport's send loop completed gracefully."
+2025-04-30 12:51:40.974 -03:00 [DBG] Connection id "0HNC7VRJ2K02J" started.
+2025-04-30 12:51:40.976 -03:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-04-30 12:51:40.977 -03:00 [DBG] Connection id "0HNC7VRJ2K02I" disconnecting.
+2025-04-30 12:51:40.977 -03:00 [DBG] Connection id "0HNC7VRJ2K02J" sending FIN because: "The Socket transport's send loop completed gracefully."
+2025-04-30 12:51:40.984 -03:00 [INF] Hosting environment: Development
+2025-04-30 12:51:40.987 -03:00 [DBG] Connection id "0HNC7VRJ2K02J" disconnecting.
+2025-04-30 12:51:40.987 -03:00 [DBG] Connection id "0HNC7VRJ2K02I" stopped.
+2025-04-30 12:51:40.988 -03:00 [INF] Content root path: C:\Users\engue\source\git\PedidosAPI\PedidosAPI
+2025-04-30 12:51:40.990 -03:00 [DBG] Connection id "0HNC7VRJ2K02J" stopped.
+2025-04-30 12:51:40.992 -03:00 [DBG] Hosting started
+2025-04-30 12:51:41.410 -03:00 [DBG] Connection id "0HNC7VRJ2K02K" accepted.
+2025-04-30 12:51:41.427 -03:00 [DBG] Connection id "0HNC7VRJ2K02K" started.
+2025-04-30 12:51:41.428 -03:00 [DBG] Connection id "0HNC7VRJ2K02L" accepted.
+2025-04-30 12:51:41.442 -03:00 [DBG] Connection id "0HNC7VRJ2K02L" started.
+2025-04-30 12:51:41.480 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5231/swagger/index.html - null null
+2025-04-30 12:51:41.629 -03:00 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2025-04-30 12:51:41.652 -03:00 [DBG] No candidates found for the request path '/swagger/index.html'
+2025-04-30 12:51:41.654 -03:00 [DBG] Request did not match any endpoints
+2025-04-30 12:51:41.709 -03:00 [DBG] Response markup is scheduled to include Browser Link script injection.
+2025-04-30 12:51:41.712 -03:00 [DBG] Response markup is scheduled to include browser refresh script injection.
+2025-04-30 12:51:41.746 -03:00 [DBG] Response markup was updated to include Browser Link script injection.
+2025-04-30 12:51:41.756 -03:00 [DBG] Response markup was updated to include browser refresh script injection.
+2025-04-30 12:51:41.758 -03:00 [DBG] Connection id "0HNC7VRJ2K02K" completed keep alive response.
+2025-04-30 12:51:41.764 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5231/swagger/index.html - 200 null text/html;charset=utf-8 296.0691ms
+2025-04-30 12:51:41.795 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5231/_vs/browserLink - null null
+2025-04-30 12:51:41.795 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5231/_framework/aspnetcore-browser-refresh.js - null null
+2025-04-30 12:51:41.809 -03:00 [DBG] Connection id "0HNC7VRJ2K02L" completed keep alive response.
+2025-04-30 12:51:41.821 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5231/_framework/aspnetcore-browser-refresh.js - 200 13772 application/javascript; charset=utf-8 25.1243ms
+2025-04-30 12:51:41.859 -03:00 [DBG] Connection id "0HNC7VRJ2K02K" completed keep alive response.
+2025-04-30 12:51:41.861 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5231/_vs/browserLink - 200 null text/javascript; charset=UTF-8 65.8376ms
+2025-04-30 12:51:41.956 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5231/swagger/v1/swagger.json - null null
+2025-04-30 12:51:41.969 -03:00 [DBG] No candidates found for the request path '/swagger/v1/swagger.json'
+2025-04-30 12:51:41.975 -03:00 [DBG] Request did not match any endpoints
+2025-04-30 12:51:42.033 -03:00 [DBG] Connection id "0HNC7VRJ2K02K" completed keep alive response.
+2025-04-30 12:51:42.040 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5231/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 83.2957ms
+2025-04-30 12:51:49.133 -03:00 [INF] Request starting HTTP/1.1 POST http://localhost:5231/login - application/json 38
+2025-04-30 12:51:49.141 -03:00 [DBG] 1 candidate(s) found for the request path '/login'
+2025-04-30 12:51:49.147 -03:00 [DBG] Endpoint 'PedidosAPI.Controllers.AuthController.Login (PedidosAPI)' with route pattern 'login' is valid for the request path '/login'
+2025-04-30 12:51:49.150 -03:00 [DBG] Request matched endpoint 'PedidosAPI.Controllers.AuthController.Login (PedidosAPI)'
+2025-04-30 12:51:49.154 -03:00 [DBG] Static files was skipped as the request already matched an endpoint.
+2025-04-30 12:51:49.225 -03:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2025-04-30 12:51:49.230 -03:00 [INF] Executing endpoint 'PedidosAPI.Controllers.AuthController.Login (PedidosAPI)'
+2025-04-30 12:51:49.254 -03:00 [INF] Route matched with {action = "Login", controller = "Auth"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Login(Application.Models.LoginRequest) on controller PedidosAPI.Controllers.AuthController (PedidosAPI).
+2025-04-30 12:51:49.259 -03:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2025-04-30 12:51:49.262 -03:00 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2025-04-30 12:51:49.263 -03:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.Filters.ControllerActionFilter (Order: -2147483648)","Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)"]
+2025-04-30 12:51:49.265 -03:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2025-04-30 12:51:49.266 -03:00 [DBG] Execution plan of result filters (in the following order): ["None"]
+2025-04-30 12:51:49.270 -03:00 [DBG] Executing controller factory for controller PedidosAPI.Controllers.AuthController (PedidosAPI)
+2025-04-30 12:51:49.272 -03:00 [DBG] Executed controller factory for controller PedidosAPI.Controllers.AuthController (PedidosAPI)
+2025-04-30 12:51:49.277 -03:00 [DBG] Attempting to bind parameter 'request' of type 'Application.Models.LoginRequest' ...
+2025-04-30 12:51:49.281 -03:00 [DBG] Attempting to bind parameter 'request' of type 'Application.Models.LoginRequest' using the name '' in request data ...
+2025-04-30 12:51:49.283 -03:00 [DBG] Selected input formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonInputFormatter' for content type 'application/json'.
+2025-04-30 12:51:49.293 -03:00 [DBG] Connection id "0HNC7VRJ2K02K", Request id "0HNC7VRJ2K02K:00000004": started reading request body.
+2025-04-30 12:51:49.295 -03:00 [DBG] Connection id "0HNC7VRJ2K02K", Request id "0HNC7VRJ2K02K:00000004": done reading request body.
+2025-04-30 12:51:49.310 -03:00 [DBG] JSON input formatter succeeded, deserializing to type 'Application.Models.LoginRequest'
+2025-04-30 12:51:49.312 -03:00 [DBG] Done attempting to bind parameter 'request' of type 'Application.Models.LoginRequest'.
+2025-04-30 12:51:49.314 -03:00 [DBG] Done attempting to bind parameter 'request' of type 'Application.Models.LoginRequest'.
+2025-04-30 12:51:49.316 -03:00 [DBG] Attempting to validate the bound parameter 'request' of type 'Application.Models.LoginRequest' ...
+2025-04-30 12:51:49.375 -03:00 [DBG] Done attempting to validate the bound parameter 'request' of type 'Application.Models.LoginRequest'.
+2025-04-30 12:51:49.382 -03:00 [INF] Executing StatusCodeResult, setting HTTP status code 401
+2025-04-30 12:51:49.388 -03:00 [INF] Executed action PedidosAPI.Controllers.AuthController.Login (PedidosAPI) in 116.2539ms
+2025-04-30 12:51:49.390 -03:00 [INF] Executed endpoint 'PedidosAPI.Controllers.AuthController.Login (PedidosAPI)'
+2025-04-30 12:51:49.391 -03:00 [DBG] Connection id "0HNC7VRJ2K02K" completed keep alive response.
+2025-04-30 12:51:49.393 -03:00 [INF] Request finished HTTP/1.1 POST http://localhost:5231/login - 401 0 null 259.8554ms
+2025-04-30 12:57:22.954 -03:00 [DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.TryParseModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"]
+2025-04-30 12:57:23.080 -03:00 [DBG] Hosting starting
+2025-04-30 12:57:23.123 -03:00 [INF] User profile is available. Using 'C:\Users\engue\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-04-30 12:57:23.140 -03:00 [DBG] Reading data from file 'C:\Users\engue\AppData\Local\ASP.NET\DataProtection-Keys\key-84d0fdb6-1092-4841-ae42-a6e0af9e2a2c.xml'.
+2025-04-30 12:57:23.148 -03:00 [DBG] Reading data from file 'C:\Users\engue\AppData\Local\ASP.NET\DataProtection-Keys\key-e060b36c-62ad-4e46-ae6d-995d0b4708ad.xml'.
+2025-04-30 12:57:23.151 -03:00 [DBG] Reading data from file 'C:\Users\engue\AppData\Local\ASP.NET\DataProtection-Keys\key-f5988c01-d3af-4e7c-b44a-246fd5e27ad1.xml'.
+2025-04-30 12:57:23.158 -03:00 [DBG] Found key {84d0fdb6-1092-4841-ae42-a6e0af9e2a2c}.
+2025-04-30 12:57:23.163 -03:00 [DBG] Found key {e060b36c-62ad-4e46-ae6d-995d0b4708ad}.
+2025-04-30 12:57:23.165 -03:00 [DBG] Found key {f5988c01-d3af-4e7c-b44a-246fd5e27ad1}.
+2025-04-30 12:57:23.173 -03:00 [DBG] Considering key {84d0fdb6-1092-4841-ae42-a6e0af9e2a2c} with expiration date 2025-07-29 06:06:56Z as default key.
+2025-04-30 12:57:23.179 -03:00 [DBG] Forwarded activator type request from Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Version=8.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2025-04-30 12:57:23.184 -03:00 [DBG] Decrypting secret element using Windows DPAPI.
+2025-04-30 12:57:23.188 -03:00 [DBG] Forwarded activator type request from Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Version=8.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2025-04-30 12:57:23.195 -03:00 [DBG] Opening CNG algorithm 'AES' from provider 'null' with chaining mode CBC.
+2025-04-30 12:57:23.198 -03:00 [DBG] Opening CNG algorithm 'SHA256' from provider 'null' with HMAC.
+2025-04-30 12:57:23.200 -03:00 [DBG] Using key {84d0fdb6-1092-4841-ae42-a6e0af9e2a2c} as the default key.
+2025-04-30 12:57:23.202 -03:00 [DBG] Key ring with default key {84d0fdb6-1092-4841-ae42-a6e0af9e2a2c} was loaded during application startup.
+2025-04-30 12:57:23.373 -03:00 [INF] Now listening on: http://localhost:5231
+2025-04-30 12:57:23.374 -03:00 [DBG] Loaded hosting startup assembly PedidosAPI
+2025-04-30 12:57:23.375 -03:00 [DBG] Loaded hosting startup assembly Microsoft.WebTools.ApiEndpointDiscovery
+2025-04-30 12:57:23.376 -03:00 [DBG] Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh
+2025-04-30 12:57:23.377 -03:00 [DBG] Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net
+2025-04-30 12:57:23.481 -03:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-04-30 12:57:23.483 -03:00 [INF] Hosting environment: Development
+2025-04-30 12:57:23.486 -03:00 [INF] Content root path: C:\Users\engue\source\git\PedidosAPI\PedidosAPI
+2025-04-30 12:57:23.487 -03:00 [DBG] Hosting started
+2025-04-30 12:57:23.530 -03:00 [DBG] Connection id "0HNC7VUP5P99Q" received FIN.
+2025-04-30 12:57:23.530 -03:00 [DBG] Connection id "0HNC7VUP5P99P" received FIN.
+2025-04-30 12:57:23.561 -03:00 [DBG] Connection id "0HNC7VUP5P99Q" accepted.
+2025-04-30 12:57:23.562 -03:00 [DBG] Connection id "0HNC7VUP5P99P" accepted.
+2025-04-30 12:57:23.568 -03:00 [DBG] Connection id "0HNC7VUP5P99Q" started.
+2025-04-30 12:57:23.568 -03:00 [DBG] Connection id "0HNC7VUP5P99P" started.
+2025-04-30 12:57:23.579 -03:00 [DBG] Connection id "0HNC7VUP5P99P" sending FIN because: "The Socket transport's send loop completed gracefully."
+2025-04-30 12:57:23.579 -03:00 [DBG] Connection id "0HNC7VUP5P99Q" sending FIN because: "The Socket transport's send loop completed gracefully."
+2025-04-30 12:57:23.583 -03:00 [DBG] Connection id "0HNC7VUP5P99Q" disconnecting.
+2025-04-30 12:57:23.583 -03:00 [DBG] Connection id "0HNC7VUP5P99P" disconnecting.
+2025-04-30 12:57:23.590 -03:00 [DBG] Connection id "0HNC7VUP5P99Q" stopped.
+2025-04-30 12:57:23.590 -03:00 [DBG] Connection id "0HNC7VUP5P99P" stopped.
+2025-04-30 12:57:23.837 -03:00 [DBG] Connection id "0HNC7VUP5P99R" accepted.
+2025-04-30 12:57:23.910 -03:00 [DBG] Connection id "0HNC7VUP5P99R" started.
+2025-04-30 12:57:23.914 -03:00 [DBG] Connection id "0HNC7VUP5P99S" accepted.
+2025-04-30 12:57:23.916 -03:00 [DBG] Connection id "0HNC7VUP5P99S" started.
+2025-04-30 12:57:23.991 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5231/swagger/index.html - null null
+2025-04-30 12:57:24.137 -03:00 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2025-04-30 12:57:24.164 -03:00 [DBG] No candidates found for the request path '/swagger/index.html'
+2025-04-30 12:57:24.166 -03:00 [DBG] Request did not match any endpoints
+2025-04-30 12:57:24.218 -03:00 [DBG] Response markup is scheduled to include Browser Link script injection.
+2025-04-30 12:57:24.222 -03:00 [DBG] Response markup is scheduled to include browser refresh script injection.
+2025-04-30 12:57:24.244 -03:00 [DBG] Response markup was updated to include Browser Link script injection.
+2025-04-30 12:57:24.245 -03:00 [DBG] Response markup was updated to include browser refresh script injection.
+2025-04-30 12:57:24.247 -03:00 [DBG] Connection id "0HNC7VUP5P99S" completed keep alive response.
+2025-04-30 12:57:24.251 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5231/swagger/index.html - 200 null text/html;charset=utf-8 274.2623ms
+2025-04-30 12:57:24.291 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5231/_vs/browserLink - null null
+2025-04-30 12:57:24.291 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5231/_framework/aspnetcore-browser-refresh.js - null null
+2025-04-30 12:57:24.299 -03:00 [DBG] Connection id "0HNC7VUP5P99R" completed keep alive response.
+2025-04-30 12:57:24.300 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5231/_framework/aspnetcore-browser-refresh.js - 200 13772 application/javascript; charset=utf-8 9.4062ms
+2025-04-30 12:57:24.335 -03:00 [DBG] Connection id "0HNC7VUP5P99S" completed keep alive response.
+2025-04-30 12:57:24.337 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5231/_vs/browserLink - 200 null text/javascript; charset=UTF-8 46.0458ms
+2025-04-30 12:57:24.427 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5231/swagger/v1/swagger.json - null null
+2025-04-30 12:57:24.444 -03:00 [DBG] No candidates found for the request path '/swagger/v1/swagger.json'
+2025-04-30 12:57:24.445 -03:00 [DBG] Request did not match any endpoints
+2025-04-30 12:57:24.468 -03:00 [DBG] Connection id "0HNC7VUP5P99S" completed keep alive response.
+2025-04-30 12:57:24.473 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5231/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 46.6405ms
+2025-04-30 12:57:31.321 -03:00 [INF] Request starting HTTP/1.1 POST http://localhost:5231/login - application/json 38
+2025-04-30 12:57:31.328 -03:00 [DBG] 1 candidate(s) found for the request path '/login'
+2025-04-30 12:57:31.333 -03:00 [DBG] Endpoint 'PedidosAPI.Controllers.AuthController.Login (PedidosAPI)' with route pattern 'login' is valid for the request path '/login'
+2025-04-30 12:57:31.336 -03:00 [DBG] Request matched endpoint 'PedidosAPI.Controllers.AuthController.Login (PedidosAPI)'
+2025-04-30 12:57:31.340 -03:00 [DBG] Static files was skipped as the request already matched an endpoint.
+2025-04-30 12:57:31.408 -03:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2025-04-30 12:57:31.414 -03:00 [INF] Executing endpoint 'PedidosAPI.Controllers.AuthController.Login (PedidosAPI)'
+2025-04-30 12:57:31.441 -03:00 [INF] Route matched with {action = "Login", controller = "Auth"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Login(Application.Models.LoginRequest) on controller PedidosAPI.Controllers.AuthController (PedidosAPI).
+2025-04-30 12:57:31.447 -03:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2025-04-30 12:57:31.450 -03:00 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2025-04-30 12:57:31.452 -03:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.Filters.ControllerActionFilter (Order: -2147483648)","Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)"]
+2025-04-30 12:57:31.454 -03:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2025-04-30 12:57:31.455 -03:00 [DBG] Execution plan of result filters (in the following order): ["None"]
+2025-04-30 12:57:31.458 -03:00 [DBG] Executing controller factory for controller PedidosAPI.Controllers.AuthController (PedidosAPI)
+2025-04-30 12:57:31.459 -03:00 [DBG] Executed controller factory for controller PedidosAPI.Controllers.AuthController (PedidosAPI)
+2025-04-30 12:57:31.464 -03:00 [DBG] Attempting to bind parameter 'request' of type 'Application.Models.LoginRequest' ...
+2025-04-30 12:57:31.466 -03:00 [DBG] Attempting to bind parameter 'request' of type 'Application.Models.LoginRequest' using the name '' in request data ...
+2025-04-30 12:57:31.469 -03:00 [DBG] Selected input formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonInputFormatter' for content type 'application/json'.
+2025-04-30 12:57:31.476 -03:00 [DBG] Connection id "0HNC7VUP5P99S", Request id "0HNC7VUP5P99S:00000004": started reading request body.
+2025-04-30 12:57:31.477 -03:00 [DBG] Connection id "0HNC7VUP5P99S", Request id "0HNC7VUP5P99S:00000004": done reading request body.
+2025-04-30 12:57:31.489 -03:00 [DBG] JSON input formatter succeeded, deserializing to type 'Application.Models.LoginRequest'
+2025-04-30 12:57:31.491 -03:00 [DBG] Done attempting to bind parameter 'request' of type 'Application.Models.LoginRequest'.
+2025-04-30 12:57:31.493 -03:00 [DBG] Done attempting to bind parameter 'request' of type 'Application.Models.LoginRequest'.
+2025-04-30 12:57:31.494 -03:00 [DBG] Attempting to validate the bound parameter 'request' of type 'Application.Models.LoginRequest' ...
+2025-04-30 12:57:31.545 -03:00 [DBG] Done attempting to validate the bound parameter 'request' of type 'Application.Models.LoginRequest'.
+2025-04-30 12:57:31.555 -03:00 [DBG] List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter"]
+2025-04-30 12:57:31.561 -03:00 [DBG] No information found on request to perform content negotiation.
+2025-04-30 12:57:31.562 -03:00 [DBG] Attempting to select an output formatter without using a content type as no explicit content types were specified for the response.
+2025-04-30 12:57:31.563 -03:00 [DBG] Attempting to select the first formatter in the output formatters list which can write the result.
+2025-04-30 12:57:31.564 -03:00 [DBG] Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter' and content type 'application/json' to write the response.
+2025-04-30 12:57:31.566 -03:00 [INF] Executing BadRequestObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.SerializableError'.
+2025-04-30 12:57:31.576 -03:00 [INF] Executed action PedidosAPI.Controllers.AuthController.Login (PedidosAPI) in 117.0024ms
+2025-04-30 12:57:31.578 -03:00 [INF] Executed endpoint 'PedidosAPI.Controllers.AuthController.Login (PedidosAPI)'
+2025-04-30 12:57:31.579 -03:00 [DBG] Connection id "0HNC7VUP5P99S" completed keep alive response.
+2025-04-30 12:57:31.580 -03:00 [INF] Request finished HTTP/1.1 POST http://localhost:5231/login - 400 null application/json; charset=utf-8 259.7281ms
+2025-04-30 12:57:41.325 -03:00 [DBG] Connection id "0HNC7VUP5P99R" received FIN.
+2025-04-30 12:57:41.326 -03:00 [DBG] Connection id "0HNC7VUP5P99S" received FIN.
+2025-04-30 12:57:41.330 -03:00 [DBG] Connection id "0HNC7VUP5P99R" sending FIN because: "The Socket transport's send loop completed gracefully."
+2025-04-30 12:57:41.332 -03:00 [DBG] Connection id "0HNC7VUP5P99S" disconnecting.
+2025-04-30 12:57:41.336 -03:00 [DBG] Connection id "0HNC7VUP5P99S" sending FIN because: "The Socket transport's send loop completed gracefully."
+2025-04-30 12:57:41.333 -03:00 [DBG] Connection id "0HNC7VUP5P99R" disconnecting.
+2025-04-30 12:57:41.342 -03:00 [DBG] Connection id "0HNC7VUP5P99R" stopped.
+2025-04-30 12:57:41.348 -03:00 [DBG] Connection id "0HNC7VUP5P99S" stopped.
+2025-04-30 12:57:48.817 -03:00 [DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.TryParseModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"]
+2025-04-30 12:57:48.951 -03:00 [DBG] Hosting starting
+2025-04-30 12:57:48.987 -03:00 [INF] User profile is available. Using 'C:\Users\engue\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-04-30 12:57:49.005 -03:00 [DBG] Reading data from file 'C:\Users\engue\AppData\Local\ASP.NET\DataProtection-Keys\key-84d0fdb6-1092-4841-ae42-a6e0af9e2a2c.xml'.
+2025-04-30 12:57:49.013 -03:00 [DBG] Reading data from file 'C:\Users\engue\AppData\Local\ASP.NET\DataProtection-Keys\key-e060b36c-62ad-4e46-ae6d-995d0b4708ad.xml'.
+2025-04-30 12:57:49.014 -03:00 [DBG] Reading data from file 'C:\Users\engue\AppData\Local\ASP.NET\DataProtection-Keys\key-f5988c01-d3af-4e7c-b44a-246fd5e27ad1.xml'.
+2025-04-30 12:57:49.018 -03:00 [DBG] Found key {84d0fdb6-1092-4841-ae42-a6e0af9e2a2c}.
+2025-04-30 12:57:49.024 -03:00 [DBG] Found key {e060b36c-62ad-4e46-ae6d-995d0b4708ad}.
+2025-04-30 12:57:49.025 -03:00 [DBG] Found key {f5988c01-d3af-4e7c-b44a-246fd5e27ad1}.
+2025-04-30 12:57:49.032 -03:00 [DBG] Considering key {84d0fdb6-1092-4841-ae42-a6e0af9e2a2c} with expiration date 2025-07-29 06:06:56Z as default key.
+2025-04-30 12:57:49.037 -03:00 [DBG] Forwarded activator type request from Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Version=8.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2025-04-30 12:57:49.043 -03:00 [DBG] Decrypting secret element using Windows DPAPI.
+2025-04-30 12:57:49.045 -03:00 [DBG] Forwarded activator type request from Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Version=8.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2025-04-30 12:57:49.051 -03:00 [DBG] Opening CNG algorithm 'AES' from provider 'null' with chaining mode CBC.
+2025-04-30 12:57:49.054 -03:00 [DBG] Opening CNG algorithm 'SHA256' from provider 'null' with HMAC.
+2025-04-30 12:57:49.057 -03:00 [DBG] Using key {84d0fdb6-1092-4841-ae42-a6e0af9e2a2c} as the default key.
+2025-04-30 12:57:49.059 -03:00 [DBG] Key ring with default key {84d0fdb6-1092-4841-ae42-a6e0af9e2a2c} was loaded during application startup.
+2025-04-30 12:57:49.205 -03:00 [INF] Now listening on: http://localhost:5231
+2025-04-30 12:57:49.206 -03:00 [DBG] Loaded hosting startup assembly PedidosAPI
+2025-04-30 12:57:49.207 -03:00 [DBG] Loaded hosting startup assembly Microsoft.WebTools.ApiEndpointDiscovery
+2025-04-30 12:57:49.207 -03:00 [DBG] Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh
+2025-04-30 12:57:49.208 -03:00 [DBG] Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net
+2025-04-30 12:57:49.293 -03:00 [DBG] Connection id "0HNC7VV0RFBVJ" received FIN.
+2025-04-30 12:57:49.293 -03:00 [DBG] Connection id "0HNC7VV0RFBVK" received FIN.
+2025-04-30 12:57:49.310 -03:00 [DBG] Connection id "0HNC7VV0RFBVK" accepted.
+2025-04-30 12:57:49.310 -03:00 [DBG] Connection id "0HNC7VV0RFBVJ" accepted.
+2025-04-30 12:57:49.313 -03:00 [DBG] Connection id "0HNC7VV0RFBVK" started.
+2025-04-30 12:57:49.314 -03:00 [DBG] Connection id "0HNC7VV0RFBVJ" started.
+2025-04-30 12:57:49.324 -03:00 [DBG] Connection id "0HNC7VV0RFBVK" sending FIN because: "The Socket transport's send loop completed gracefully."
+2025-04-30 12:57:49.325 -03:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-04-30 12:57:49.324 -03:00 [DBG] Connection id "0HNC7VV0RFBVJ" sending FIN because: "The Socket transport's send loop completed gracefully."
+2025-04-30 12:57:49.339 -03:00 [INF] Hosting environment: Development
+2025-04-30 12:57:49.340 -03:00 [DBG] Connection id "0HNC7VV0RFBVK" disconnecting.
+2025-04-30 12:57:49.342 -03:00 [DBG] Connection id "0HNC7VV0RFBVJ" disconnecting.
+2025-04-30 12:57:49.343 -03:00 [INF] Content root path: C:\Users\engue\source\git\PedidosAPI\PedidosAPI
+2025-04-30 12:57:49.347 -03:00 [DBG] Hosting started
+2025-04-30 12:57:49.356 -03:00 [DBG] Connection id "0HNC7VV0RFBVK" stopped.
+2025-04-30 12:57:49.356 -03:00 [DBG] Connection id "0HNC7VV0RFBVJ" stopped.
+2025-04-30 12:57:49.635 -03:00 [DBG] Connection id "0HNC7VV0RFBVL" accepted.
+2025-04-30 12:57:49.659 -03:00 [DBG] Connection id "0HNC7VV0RFBVL" started.
+2025-04-30 12:57:49.660 -03:00 [DBG] Connection id "0HNC7VV0RFBVM" accepted.
+2025-04-30 12:57:49.720 -03:00 [DBG] Connection id "0HNC7VV0RFBVM" started.
+2025-04-30 12:57:49.772 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5231/swagger/index.html - null null
+2025-04-30 12:57:49.931 -03:00 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2025-04-30 12:57:49.959 -03:00 [DBG] No candidates found for the request path '/swagger/index.html'
+2025-04-30 12:57:49.961 -03:00 [DBG] Request did not match any endpoints
+2025-04-30 12:57:50.016 -03:00 [DBG] Response markup is scheduled to include Browser Link script injection.
+2025-04-30 12:57:50.020 -03:00 [DBG] Response markup is scheduled to include browser refresh script injection.
+2025-04-30 12:57:50.047 -03:00 [DBG] Response markup was updated to include Browser Link script injection.
+2025-04-30 12:57:50.048 -03:00 [DBG] Response markup was updated to include browser refresh script injection.
+2025-04-30 12:57:50.052 -03:00 [DBG] Connection id "0HNC7VV0RFBVL" completed keep alive response.
+2025-04-30 12:57:50.061 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5231/swagger/index.html - 200 null text/html;charset=utf-8 309.4527ms
+2025-04-30 12:57:50.093 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5231/_vs/browserLink - null null
+2025-04-30 12:57:50.093 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5231/_framework/aspnetcore-browser-refresh.js - null null
+2025-04-30 12:57:50.108 -03:00 [DBG] Connection id "0HNC7VV0RFBVM" completed keep alive response.
+2025-04-30 12:57:50.118 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5231/_framework/aspnetcore-browser-refresh.js - 200 13772 application/javascript; charset=utf-8 24.3294ms
+2025-04-30 12:57:50.147 -03:00 [DBG] Connection id "0HNC7VV0RFBVL" completed keep alive response.
+2025-04-30 12:57:50.148 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5231/_vs/browserLink - 200 null text/javascript; charset=UTF-8 55.2942ms
+2025-04-30 12:57:50.261 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5231/swagger/v1/swagger.json - null null
+2025-04-30 12:57:50.283 -03:00 [DBG] No candidates found for the request path '/swagger/v1/swagger.json'
+2025-04-30 12:57:50.303 -03:00 [DBG] Request did not match any endpoints
+2025-04-30 12:57:50.332 -03:00 [DBG] Connection id "0HNC7VV0RFBVL" completed keep alive response.
+2025-04-30 12:57:50.334 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5231/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 72.3155ms
+2025-04-30 12:58:05.150 -03:00 [INF] Request starting HTTP/1.1 POST http://localhost:5231/login - application/json 47
+2025-04-30 12:58:05.160 -03:00 [DBG] 1 candidate(s) found for the request path '/login'
+2025-04-30 12:58:05.165 -03:00 [DBG] Endpoint 'PedidosAPI.Controllers.AuthController.Login (PedidosAPI)' with route pattern 'login' is valid for the request path '/login'
+2025-04-30 12:58:05.168 -03:00 [DBG] Request matched endpoint 'PedidosAPI.Controllers.AuthController.Login (PedidosAPI)'
+2025-04-30 12:58:05.172 -03:00 [DBG] Static files was skipped as the request already matched an endpoint.
+2025-04-30 12:58:05.255 -03:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2025-04-30 12:58:05.259 -03:00 [INF] Executing endpoint 'PedidosAPI.Controllers.AuthController.Login (PedidosAPI)'
+2025-04-30 12:58:05.282 -03:00 [INF] Route matched with {action = "Login", controller = "Auth"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Login(Application.Models.LoginRequest) on controller PedidosAPI.Controllers.AuthController (PedidosAPI).
+2025-04-30 12:58:05.288 -03:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2025-04-30 12:58:05.291 -03:00 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2025-04-30 12:58:05.293 -03:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.Filters.ControllerActionFilter (Order: -2147483648)","Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)"]
+2025-04-30 12:58:05.294 -03:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2025-04-30 12:58:05.296 -03:00 [DBG] Execution plan of result filters (in the following order): ["None"]
+2025-04-30 12:58:05.299 -03:00 [DBG] Executing controller factory for controller PedidosAPI.Controllers.AuthController (PedidosAPI)
+2025-04-30 12:58:05.300 -03:00 [DBG] Executed controller factory for controller PedidosAPI.Controllers.AuthController (PedidosAPI)
+2025-04-30 12:58:05.305 -03:00 [DBG] Attempting to bind parameter 'request' of type 'Application.Models.LoginRequest' ...
+2025-04-30 12:58:05.309 -03:00 [DBG] Attempting to bind parameter 'request' of type 'Application.Models.LoginRequest' using the name '' in request data ...
+2025-04-30 12:58:05.311 -03:00 [DBG] Selected input formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonInputFormatter' for content type 'application/json'.
+2025-04-30 12:58:05.319 -03:00 [DBG] Connection id "0HNC7VV0RFBVL", Request id "0HNC7VV0RFBVL:00000004": started reading request body.
+2025-04-30 12:58:05.321 -03:00 [DBG] Connection id "0HNC7VV0RFBVL", Request id "0HNC7VV0RFBVL:00000004": done reading request body.
+2025-04-30 12:58:05.332 -03:00 [DBG] JSON input formatter succeeded, deserializing to type 'Application.Models.LoginRequest'
+2025-04-30 12:58:05.335 -03:00 [DBG] Done attempting to bind parameter 'request' of type 'Application.Models.LoginRequest'.
+2025-04-30 12:58:05.338 -03:00 [DBG] Done attempting to bind parameter 'request' of type 'Application.Models.LoginRequest'.
+2025-04-30 12:58:05.341 -03:00 [DBG] Attempting to validate the bound parameter 'request' of type 'Application.Models.LoginRequest' ...
+2025-04-30 12:58:05.384 -03:00 [DBG] Done attempting to validate the bound parameter 'request' of type 'Application.Models.LoginRequest'.
+2025-04-30 12:58:05.429 -03:00 [DBG] List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter"]
+2025-04-30 12:58:05.434 -03:00 [DBG] No information found on request to perform content negotiation.
+2025-04-30 12:58:05.436 -03:00 [DBG] Attempting to select an output formatter without using a content type as no explicit content types were specified for the response.
+2025-04-30 12:58:05.437 -03:00 [DBG] Attempting to select the first formatter in the output formatters list which can write the result.
+2025-04-30 12:58:05.439 -03:00 [DBG] Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter' and content type 'application/json' to write the response.
+2025-04-30 12:58:05.441 -03:00 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType0`1[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2025-04-30 12:58:05.449 -03:00 [INF] Executed action PedidosAPI.Controllers.AuthController.Login (PedidosAPI) in 148.4424ms
+2025-04-30 12:58:05.450 -03:00 [INF] Executed endpoint 'PedidosAPI.Controllers.AuthController.Login (PedidosAPI)'
+2025-04-30 12:58:05.452 -03:00 [DBG] Connection id "0HNC7VV0RFBVL" completed keep alive response.
+2025-04-30 12:58:05.453 -03:00 [INF] Request finished HTTP/1.1 POST http://localhost:5231/login - 200 null application/json; charset=utf-8 302.9444ms
+2025-04-30 12:58:33.799 -03:00 [INF] Request starting HTTP/1.1 POST http://localhost:5231/api/customers - application/json 52
+2025-04-30 12:58:33.808 -03:00 [DBG] 1 candidate(s) found for the request path '/api/customers'
+2025-04-30 12:58:33.810 -03:00 [DBG] Endpoint 'PedidosAPI.Controllers.CustomerController.Create (PedidosAPI)' with route pattern 'api/customers' is valid for the request path '/api/customers'
+2025-04-30 12:58:33.813 -03:00 [DBG] Request matched endpoint 'PedidosAPI.Controllers.CustomerController.Create (PedidosAPI)'
+2025-04-30 12:58:33.814 -03:00 [DBG] Static files was skipped as the request already matched an endpoint.
+2025-04-30 12:58:33.882 -03:00 [DBG] Successfully validated the token.
+2025-04-30 12:58:33.885 -03:00 [DBG] AuthenticationScheme: Bearer was successfully authenticated.
+2025-04-30 12:58:33.893 -03:00 [DBG] Authorization was successful.
+2025-04-30 12:58:33.894 -03:00 [INF] Executing endpoint 'PedidosAPI.Controllers.CustomerController.Create (PedidosAPI)'
+2025-04-30 12:58:33.904 -03:00 [INF] Route matched with {action = "Create", controller = "Customer"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Create(Application.Dtos.CustomerCreateDto) on controller PedidosAPI.Controllers.CustomerController (PedidosAPI).
+2025-04-30 12:58:33.906 -03:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2025-04-30 12:58:33.908 -03:00 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2025-04-30 12:58:33.909 -03:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2025-04-30 12:58:33.911 -03:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2025-04-30 12:58:33.912 -03:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2025-04-30 12:58:33.914 -03:00 [DBG] Executing controller factory for controller PedidosAPI.Controllers.CustomerController (PedidosAPI)
+2025-04-30 12:58:33.915 -03:00 [DBG] Executed controller factory for controller PedidosAPI.Controllers.CustomerController (PedidosAPI)
+2025-04-30 12:58:33.917 -03:00 [DBG] Attempting to bind parameter 'dto' of type 'Application.Dtos.CustomerCreateDto' ...
+2025-04-30 12:58:33.919 -03:00 [DBG] Attempting to bind parameter 'dto' of type 'Application.Dtos.CustomerCreateDto' using the name '' in request data ...
+2025-04-30 12:58:33.922 -03:00 [DBG] Selected input formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonInputFormatter' for content type 'application/json'.
+2025-04-30 12:58:33.924 -03:00 [DBG] Connection id "0HNC7VV0RFBVL", Request id "0HNC7VV0RFBVL:00000005": started reading request body.
+2025-04-30 12:58:33.926 -03:00 [DBG] Connection id "0HNC7VV0RFBVL", Request id "0HNC7VV0RFBVL:00000005": done reading request body.
+2025-04-30 12:58:33.928 -03:00 [DBG] JSON input formatter succeeded, deserializing to type 'Application.Dtos.CustomerCreateDto'
+2025-04-30 12:58:33.929 -03:00 [DBG] Done attempting to bind parameter 'dto' of type 'Application.Dtos.CustomerCreateDto'.
+2025-04-30 12:58:33.930 -03:00 [DBG] Done attempting to bind parameter 'dto' of type 'Application.Dtos.CustomerCreateDto'.
+2025-04-30 12:58:33.932 -03:00 [DBG] Attempting to validate the bound parameter 'dto' of type 'Application.Dtos.CustomerCreateDto' ...
+2025-04-30 12:58:33.950 -03:00 [DBG] Done attempting to validate the bound parameter 'dto' of type 'Application.Dtos.CustomerCreateDto'.
+2025-04-30 12:58:33.954 -03:00 [DBG] The request has model state errors, returning an error response.
+2025-04-30 12:58:33.955 -03:00 [DBG] Request was short circuited at action filter 'Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter'.
+2025-04-30 12:58:33.957 -03:00 [DBG] List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter"]
+2025-04-30 12:58:33.960 -03:00 [DBG] Attempting to select an output formatter based on Accept header '["text/plain"]' and explicitly specified content types '["application/problem+json","application/problem+xml","application/problem+json","application/problem+xml"]'. The content types in the accept header must be a subset of the explicitly set content types.
+2025-04-30 12:58:33.964 -03:00 [DBG] Could not find an output formatter based on content negotiation. Accepted types were (["text/plain"])
+2025-04-30 12:58:33.965 -03:00 [DBG] Attempting to select the first output formatter in the output formatters list which supports a content type from the explicitly specified content types '["application/problem+json","application/problem+xml","application/problem+json","application/problem+xml"]'.
+2025-04-30 12:58:33.968 -03:00 [DBG] Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter' and content type 'application/problem+json' to write the response.
+2025-04-30 12:58:33.970 -03:00 [INF] Executing BadRequestObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ValidationProblemDetails'.
+2025-04-30 12:58:33.990 -03:00 [INF] Executed action PedidosAPI.Controllers.CustomerController.Create (PedidosAPI) in 76.3591ms
+2025-04-30 12:58:33.992 -03:00 [INF] Executed endpoint 'PedidosAPI.Controllers.CustomerController.Create (PedidosAPI)'
+2025-04-30 12:58:33.993 -03:00 [DBG] Connection id "0HNC7VV0RFBVL" completed keep alive response.
+2025-04-30 12:58:33.995 -03:00 [INF] Request finished HTTP/1.1 POST http://localhost:5231/api/customers - 400 null application/problem+json; charset=utf-8 199.2087ms
+2025-04-30 12:58:42.704 -03:00 [DBG] Connection id "0HNC7VV0RFBVM" received FIN.
+2025-04-30 12:58:42.704 -03:00 [DBG] Connection id "0HNC7VV0RFBVL" received FIN.
+2025-04-30 12:58:42.706 -03:00 [DBG] Connection id "0HNC7VV0RFBVM" sending FIN because: "The Socket transport's send loop completed gracefully."
+2025-04-30 12:58:42.708 -03:00 [DBG] Connection id "0HNC7VV0RFBVL" disconnecting.
+2025-04-30 12:58:42.709 -03:00 [DBG] Connection id "0HNC7VV0RFBVM" disconnecting.
+2025-04-30 12:58:42.724 -03:00 [DBG] Connection id "0HNC7VV0RFBVL" sending FIN because: "The Socket transport's send loop completed gracefully."
+2025-04-30 12:58:42.726 -03:00 [DBG] Connection id "0HNC7VV0RFBVM" stopped.
+2025-04-30 12:58:42.737 -03:00 [DBG] Connection id "0HNC7VV0RFBVL" stopped.

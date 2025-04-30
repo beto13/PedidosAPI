@@ -1,4 +1,5 @@
-﻿using Microsoft.AspNetCore.Authorization;
+﻿using Application.Models;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.IdentityModel.Tokens;
 using System.IdentityModel.Tokens.Jwt;
@@ -20,6 +21,11 @@ namespace PedidosAPI.Controllers
         [HttpPost("login")]
         public IActionResult Login([FromBody] LoginRequest request)
         {
+            if (!ModelState.IsValid)
+            {
+                return BadRequest(ModelState); 
+            }
+
             if (request.Username == "admin" && request.Password == "1234")
             {
                 var tokenHandler = new JwtSecurityTokenHandler();
@@ -47,7 +53,5 @@ namespace PedidosAPI.Controllers
 
             return Unauthorized();
         }
-
-        public record LoginRequest(string Username, string Password);
     }
 }

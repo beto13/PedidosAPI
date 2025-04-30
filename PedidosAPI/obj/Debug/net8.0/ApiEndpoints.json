@@ -225,7 +225,7 @@
     "Parameters": [
       {
         "Name": "request",
-        "Type": "PedidosAPI.Controllers.AuthController\u002BLoginRequest",
+        "Type": "Application.Models.LoginRequest",
         "IsRequired": true
       }
     ],

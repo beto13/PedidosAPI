@@ -1,11 +1,13 @@
 using Application.Configuration;
 using Application.Validators;
 using FluentValidation;
+using FluentValidation.AspNetCore;
 using Infrastructure.Configuration;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.IdentityModel.Tokens;
 using Microsoft.OpenApi.Models;
 using PedidosAPI.Middlewares;
+using Serilog;
 using System.Reflection;
 using System.Text;
 
@@ -15,6 +17,12 @@ namespace PedidosAPI
     {
         public static void Main(string[] args)
         {
+            Log.Logger = new LoggerConfiguration()
+                .WriteTo.Console()
+                .WriteTo.File("logs/log-.txt", rollingInterval: RollingInterval.Day)
+                .MinimumLevel.Debug()
+                .CreateLogger();
+
             var builder = WebApplication.CreateBuilder(args);
 
             var key = Encoding.UTF8.GetBytes(builder.Configuration["Jwt:Key"]!);
@@ -73,7 +81,7 @@ namespace PedidosAPI
                                 Id = "Bearer"
                             }
                         },
-                        new string[] {}
+                        Array.Empty<string>()
                     }
                 });
 
@@ -82,17 +90,22 @@ namespace PedidosAPI
                 c.IncludeXmlComments(xmlPath, includeControllerXmlComments: true);
             });
 
+            builder.Host.UseSerilog();
+
+            builder.Services.AddFluentValidationAutoValidation();
             builder.Services.AddValidatorsFromAssemblyContaining<ProductValidator>();
             builder.Services.AddValidatorsFromAssemblyContaining<CustomerValidator>();
             builder.Services.AddValidatorsFromAssemblyContaining<OrderItemValidator>();
             builder.Services.AddValidatorsFromAssemblyContaining<OrderValidator>();
-
+            builder.Services.AddValidatorsFromAssemblyContaining<LoginRequestValidator>();
+            
             builder.Services.AddApplicationServices();
+
             builder.Services.AddInfrastructureServices(builder.Configuration);
 
             var app = builder.Build();
 
-            app.UseMiddleware<ErrorHandlingMiddleware>();
+             app.UseMiddleware<ErrorHandlingMiddleware>();
 
             app.UseSwagger();
             app.UseSwaggerUI(c =>
