@@ -1,5 +1,9 @@
 ﻿using Application.Common.Interfaces.Repositories;
 using Application.Common.Interfaces.Repositories.Persistence;
+using Application.Dtos;
+using Application.Filtering.Factories;
+using Application.Filtering.Interfaces;
+using Domain.Entities;
 using Infrastructure.Persistence;
 using Infrastructure.Repositories;
 using Infrastructure.Services;
@@ -20,6 +24,9 @@ namespace Infrastructure.Configuration
             services.AddScoped(typeof(ISqlCommandRepository<>), typeof(SqlCommandRepository<>));
             services.AddScoped(typeof(ICustomerQueryRepository), typeof(CustomerQueryRepository));
             services.AddScoped(typeof(IOrderQueryRepository), typeof(OrderQueryRepository));
+
+            services.AddScoped<IFilterService<Customer, CustomerFilterDto>, FilterService<Customer, CustomerFilterDto>>();
+            services.AddScoped<IFilterStrategyFactory<Customer, CustomerFilterDto>, CustomerFilterStrategyFactory>();
 
             services.AddScoped<IUnitOfWork, UnitOfWork>();
 
