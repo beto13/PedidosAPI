@@ -4,11 +4,13 @@ using Application.UseCases.Orders.Commands.Create;
 using Application.UseCases.Orders.Commands.Update;
 using Application.UseCases.Orders.Queries;
 using MediatR;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Swashbuckle.AspNetCore.Annotations;
 
 namespace PedidosAPI.Controllers
 {
+    [Authorize]
     [ApiController]
     [Route("api/orders")]
     public class OrderController : Controller

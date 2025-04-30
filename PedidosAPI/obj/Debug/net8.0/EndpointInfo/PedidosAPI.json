@@ -1,22 +1,53 @@
 {
   "openapi": "3.0.1",
   "info": {
-    "title": "Pedidos API",
-    "description": "API para gestionar pedidos",
+    "title": "PedidosAPI",
     "version": "v1"
   },
   "paths": {
+    "/login": {
+      "post": {
+        "tags": [
+          "Auth"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/LoginRequest"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/LoginRequest"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/LoginRequest"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
     "/api/customers": {
       "get": {
         "tags": [
           "Customer"
         ],
-        "summary": "Obtiene un cliente por su ID",
+        "summary": "Obtiene un cliente por su ID.",
         "description": "Permite obtener los detalles de un cliente a partir de su ID.",
         "parameters": [
           {
             "name": "id",
             "in": "query",
+            "description": "El ID del cliente.",
             "schema": {
               "type": "string",
               "format": "uuid"
@@ -90,9 +121,10 @@
         "tags": [
           "Customer"
         ],
-        "summary": "Crea un nuevo cliente",
+        "summary": "Crea un nuevo cliente.",
         "description": "Permite crear un nuevo cliente con la información proporcionada.",
         "requestBody": {
+          "description": "El DTO del cliente que contiene los datos para crear un nuevo cliente.",
           "content": {
             "application/json": {
               "schema": {
@@ -592,6 +624,20 @@
         "type": "integer",
         "format": "int32"
       },
+      "LoginRequest": {
+        "type": "object",
+        "properties": {
+          "username": {
+            "type": "string",
+            "nullable": true
+          },
+          "password": {
+            "type": "string",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
       "ObjectApiResponse": {
         "type": "object",
         "properties": {
@@ -693,6 +739,19 @@
         "type": "object",
         "additionalProperties": false
       }
+    },
+    "securitySchemes": {
+      "Bearer": {
+        "type": "apiKey",
+        "description": "JWT Authorization header usando el esquema Bearer. \r\n\r\n Escribí 'Bearer {token}' en la caja de texto.",
+        "name": "Authorization",
+        "in": "header"
+      }
     }
-  }
+  },
+  "security": [
+    {
+      "Bearer": [ ]
+    }
+  ]
 }
