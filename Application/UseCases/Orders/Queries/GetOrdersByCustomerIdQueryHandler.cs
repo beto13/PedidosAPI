@@ -26,7 +26,7 @@ namespace Application.UseCases.Orders.Queries
 
             var ordersDto = mapper.Map<List<OrderDto>>(orders);
 
-            return new ApiResponse<List<OrderDto>>(HttpStatusCode.NotFound, true, ordersDto);
+            return new ApiResponse<List<OrderDto>>(HttpStatusCode.OK, true, ordersDto);
         }
     }
 }

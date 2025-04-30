@@ -3,12 +3,14 @@ using Application.Models;
 using Application.UseCases.Customers.Commands;
 using Application.UseCases.Customers.Queries;
 using MediatR;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Swashbuckle.AspNetCore.Annotations;
 
 namespace PedidosAPI.Controllers
 {
     [ApiController]
+    [Authorize]
     [Route("api/customers")]
     public class CustomerController : ControllerBase
     {

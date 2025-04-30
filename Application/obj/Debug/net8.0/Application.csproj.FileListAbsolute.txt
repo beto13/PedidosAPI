@@ -13,3 +13,4 @@ C:\Users\engue\source\git\PedidosAPI\Application\obj\Debug\net8.0\Application.dl
 C:\Users\engue\source\git\PedidosAPI\Application\obj\Debug\net8.0\refint\Application.dll
 C:\Users\engue\source\git\PedidosAPI\Application\obj\Debug\net8.0\Application.pdb
 C:\Users\engue\source\git\PedidosAPI\Application\obj\Debug\net8.0\ref\Application.dll
+C:\Users\engue\source\git\PedidosAPI\Application\obj\Debug\net8.0\Application.sourcelink.json

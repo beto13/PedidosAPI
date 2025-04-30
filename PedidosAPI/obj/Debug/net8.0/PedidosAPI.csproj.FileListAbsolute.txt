@@ -187,3 +187,4 @@ C:\Users\engue\source\git\PedidosAPI\PedidosAPI\obj\Debug\net8.0\PedidosAPI.pdb
 C:\Users\engue\source\git\PedidosAPI\PedidosAPI\obj\Debug\net8.0\PedidosAPI.genruntimeconfig.cache
 C:\Users\engue\source\git\PedidosAPI\PedidosAPI\obj\Debug\net8.0\ref\PedidosAPI.dll
 C:\Users\engue\source\git\PedidosAPI\PedidosAPI\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
+C:\Users\engue\source\git\PedidosAPI\PedidosAPI\obj\Debug\net8.0\PedidosAPI.sourcelink.json
