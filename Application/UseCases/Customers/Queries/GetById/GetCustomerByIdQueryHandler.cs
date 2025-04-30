@@ -5,7 +5,7 @@ using AutoMapper;
 using MediatR;
 using System.Net;
 
-namespace Application.UseCases.Customers.Queries
+namespace Application.UseCases.Customers.Queries.GetById
 {
     public class GetCustomerByIdQueryHandler : IRequestHandler<GetCustomerByIdQuery, ApiResponse<CustomerDto>>
     {
@@ -30,7 +30,7 @@ namespace Application.UseCases.Customers.Queries
 
             var customerDto = mapper.Map<CustomerDto>(customer);
 
-            return new ApiResponse<CustomerDto>(System.Net.HttpStatusCode.OK, true, customerDto);
+            return new ApiResponse<CustomerDto>(HttpStatusCode.OK, true, customerDto);
         }
     }
 }

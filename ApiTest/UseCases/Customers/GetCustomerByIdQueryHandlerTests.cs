@@ -1,6 +1,6 @@
 ﻿using Application.Common.Interfaces.Repositories.Persistence;
 using Application.Dtos;
-using Application.UseCases.Customers.Queries;
+using Application.UseCases.Customers.Queries.GetById;
 using AutoMapper;
 using Domain.Entities;
 using Moq;

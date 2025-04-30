@@ -1,4 +1,6 @@
-﻿using System.Linq.Expressions;
+﻿using Application.Filtering.Interfaces;
+using Application.Models;
+using System.Linq.Expressions;
 
 namespace Application.Common.Interfaces.Repositories.Persistence
 {
@@ -10,16 +12,16 @@ namespace Application.Common.Interfaces.Repositories.Persistence
 
         Task<IEnumerable<T>> FilterAsync(Expression<Func<T, bool>> expression);
 
-        //Task<IEnumerable<T>> GetFilteredAndPagedAsync(
-        //    Expression<Func<T, bool>> filter,
-        //    PaginationParameters paginationParams,
-        //    bool asNoTracking = false,
-        //    params Expression<Func<T, object>>[] includeProperties);
+        Task<IEnumerable<T>> GetFilteredAndPagedAsync(
+            Expression<Func<T, bool>> filter,
+            PaginationParameters paginationParams,
+            bool asNoTracking = false,
+            params Expression<Func<T, object>>[] includeProperties);
 
-        //Task<PagedResult<T>> GetFilteredAndPagedAsync(
-        //     List<IFilterStrategy<T>> filters,
-        //     PaginationParameters pagination,
-        //     bool asNoTracking = false,
-        //     params Expression<Func<T, object>>[] includes);
+        Task<PagedResult<T>> GetFilteredAndPagedAsync(
+             List<IFilterStrategy<T>> filters,
+             PaginationParameters pagination,
+             bool asNoTracking = false,
+             params Expression<Func<T, object>>[] includes);
     }
 }
